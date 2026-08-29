@@ -265,6 +265,20 @@
   .band .bv{font-family:var(--f-display); font-weight:700; font-size:1.05rem; margin-top:3px;}
   .band.hi .bv{color:var(--amber);}
 
+  .medal-tl{border:1px solid var(--amber-line); border-radius:18px; padding:32px; margin-bottom:18px;
+    background:radial-gradient(520px 300px at 100% 0%, rgba(246,178,60,.12), transparent 60%), var(--surface-2);}
+  .medal-tl .c-k{font-family:var(--f-mono); font-size:11.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); margin-bottom:6px;}
+  .medal-tl h3{font-size:clamp(1.4rem,2.6vw,1.7rem); font-weight:700;}
+  .medal-row{display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin:22px 0 20px;}
+  @media (max-width:560px){ .medal-row{grid-template-columns:repeat(2,1fr);} }
+  .medal-node{border:1px solid var(--line); border-radius:12px; background:var(--ink-2); padding:16px 10px; text-align:center;}
+  .medal-node.silver{border-color:var(--amber-line); background:var(--amber-dim);}
+  .medal-node .my-year{font-family:var(--f-mono); font-size:12px; color:var(--muted); letter-spacing:.05em;}
+  .medal-node .my-medal{font-size:30px; line-height:1; margin:8px 0 6px;}
+  .medal-node .my-label{font-family:var(--f-display); font-weight:700; font-size:1rem;}
+  .medal-node.silver .my-label{color:var(--amber);}
+  .medal-tl .tl-note{color:var(--text-2); font-size:15px; margin:0; max-width:72ch;}
+
   .results{border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; background:var(--surface-2);}
   .res-band{display:flex; align-items:center; gap:12px; padding:16px 22px; background:var(--surface); border-bottom:1px solid var(--line);}
   .res-band h3{font-size:15px; font-family:var(--f-display); font-weight:600;}
