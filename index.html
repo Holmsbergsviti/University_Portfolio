@@ -99,8 +99,8 @@
           I'm <b>Vladislav</b>, a developer from <b>Belgrade</b>. I started young — writing little programs to
           do my own homework for me, like working out the <span class="amber-word">HCF and LCM</span> of
           numbers — and I never really stopped. That turned into <span class="amber-word">automating the small
-          things</span> I do every day, and then into real projects: a school e-diary, booking sites for local
-          studios, a Windows tool that keeps software in sync across machines, and a few bots and games along
+          things</span> I do every day, and then into real projects: a school e-diary, a security scanner that finds exploitable
+          bugs in code, booking sites for local studios, a Windows tool that keeps software in sync across machines, and a few bots and games along
           the way.
         </p>
         <p>
@@ -143,9 +143,10 @@
         </div>
       </div>
       <div class="skill-card reveal">
-        <div class="sk-h"><span class="dot"></span><h3>Systems &amp; Infrastructure</h3></div>
+        <div class="sk-h"><span class="dot"></span><h3>Security &amp; Systems</h3></div>
         <div class="chips">
-          <span class="chip">Windows Services</span><span class="chip">Fleet management</span>
+          <span class="chip">Static analysis / taint tracking</span><span class="chip">Secret detection</span>
+          <span class="chip">CVE scanning (OSV)</span><span class="chip">Windows Services</span><span class="chip">Fleet management</span>
           <span class="chip">GitHub as control plane</span><span class="chip">REST / GitHub API</span>
           <span class="chip">SHA-256 integrity</span>
         </div>
@@ -195,30 +196,36 @@
     <article class="flagship reveal">
       <div class="flag-top">
         <span class="tag">Flagship · Real-world impact</span>
-        <span class="tag neutral">JavaScript</span>
+        <span class="tag neutral">JavaScript · Python / Django</span>
       </div>
       <h3>E-Diary</h3>
       <div class="sub">A digital school diary I built for Chartwell</div>
       <p>
-        My school's digital diary felt dated, so I built my own version — a browser app for keeping track
-        of academic records — and presented it to the school. They couldn't switch to it because of the
-        rules around student data, but it did make them look again at their own system and improve it.
-        That's the part I'm proud of: it changed something people actually use every day.
+        My school's digital diary felt dated, so with a classmate I built a full replacement and presented
+        it to the school's leadership. It has separate flows for students, teachers and admins: timetables,
+        attendance, grades, homework, substitutions, reports and data imports. The front-end is plain
+        HTML/CSS/JavaScript on Netlify; the back-end is a stateless Django API on Render that issues JWTs
+        and scopes every query on the server by role, on top of Supabase (PostgreSQL, Auth and Storage).
+        The school couldn't adopt it because of the rules around student data, but it made them re-evaluate
+        and improve their own system, which is the part I'm proudest of.
       </p>
       <div class="flag-feats">
         <div class="ff"><div class="fn">IMPACT</div><div class="fd">Led the school to improve its own e-diary</div></div>
         <div class="ff"><div class="fn">RECOGNITION</div><div class="fd">Got a formal commendation from the school</div></div>
-        <div class="ff"><div class="fn">DATA PRIVACY</div><div class="fd">Ran into real rules around student data</div></div>
-        <div class="ff"><div class="fn">HOW I BUILT IT</div><div class="fd">Built it, then presented it to leadership</div></div>
+        <div class="ff"><div class="fn">ACCESS CONTROL</div><div class="fd">Role-based routing plus server-side data scoping</div></div>
+        <div class="ff"><div class="fn">ARCHITECTURE</div><div class="fd">Static front-end and Django API, deployed independently</div></div>
       </div>
       <div class="proj-foot">
         <div class="stackline">
-          <span class="chip">Full-stack web</span><span class="chip">Records system</span><span class="chip">Real users</span>
+          <span class="chip">Django</span><span class="chip">Supabase / PostgreSQL</span><span class="chip">JWT auth</span><span class="chip">Vanilla JS</span>
         </div>
+        <div class="foot-links">
+        <a class="repo-link" href="https://chartwell-e-diary.netlify.app/" target="_blank" rel="noopener">Live demo →</a>
         <a class="repo-link" href="https://github.com/Holmsbergsviti/e-diary" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.27 3.4.97.1-.75.4-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.28 5.69.42.36.79 1.06.79 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
           View repository →
         </a>
+        </div>
       </div>
     </article>
 
@@ -240,6 +247,42 @@
       </figure>
     </div>
 
+    <!-- FLAGSHIP: VEMIRIX -->
+    <article class="flagship reveal">
+      <div class="flag-top">
+        <span class="tag">Flagship · Security</span>
+        <span class="tag neutral">Python · TypeScript</span>
+      </div>
+      <h3>Vemirix</h3>
+      <div class="sub">A security scanner that finds what is actually exploitable in a codebase</div>
+      <p>
+        Most security tools bury developers in hundreds of warnings. Vemirix connects to a GitHub repository,
+        clones it into a sandbox and runs three scanners: secret detection (pattern matching plus Shannon
+        entropy, with evidence masked before it is stored), dependency checks against the OSV vulnerability
+        database, and static analysis. Alongside Bandit for Python I wrote my own taint-tracking rules for
+        JavaScript/TypeScript, Go, Java, Ruby, PHP and C# that follow user input across files into SQL and
+        command injection, SSRF, path traversal and XSS. Findings are de-duplicated by fingerprint and scored
+        0–100 by a deterministic risk model, and an optional AI layer explains each one and writes an ordered
+        fix plan, shown in a web dashboard and exported as a PDF report.
+      </p>
+      <div class="flag-feats">
+        <div class="ff"><div class="fn">ACCURACY</div><div class="fd">100% precision, 93% recall on a 102-issue benchmark</div></div>
+        <div class="ff"><div class="fn">DETECTION</div><div class="fd">Secrets, known CVEs and cross-file taint analysis in 7 languages</div></div>
+        <div class="ff"><div class="fn">ARCHITECTURE</div><div class="fd">FastAPI, Redis job queue and workers, Next.js dashboard</div></div>
+        <div class="ff"><div class="fn">IN PROGRESS</div><div class="fd">An AI triage agent that judges if a finding is exploitable</div></div>
+      </div>
+      <div class="proj-foot">
+        <div class="stackline">
+          <span class="chip">FastAPI</span><span class="chip">PostgreSQL</span><span class="chip">Redis / ARQ</span>
+          <span class="chip">Next.js</span><span class="chip">OSV</span><span class="chip">Docker</span>
+        </div>
+        <a class="repo-link" href="https://github.com/Holmsbergsviti/vemirix-backend" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.27 3.4.97.1-.75.4-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.28 5.69.42.36.79 1.06.79 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+          View repository →
+        </a>
+      </div>
+    </article>
+
     <!-- FLAGSHIP -->
     <article class="flagship reveal">
       <div class="flag-top">
@@ -249,22 +292,24 @@
       <h3>Orchestrator</h3>
       <div class="sub">A Windows tool that manages software across many machines</div>
       <p>
-        This is the biggest thing I've built. It's a small Windows service that keeps software in sync
-        across a lot of machines, using a GitHub repo as the one place you control everything from. You
-        edit a list of programs, and each machine installs, updates or removes them on its own — delete
-        something and it uninstalls everywhere on the next check. It verifies every download with a
-        checksum, and there's a small web console so you don't have to edit JSON by hand.
+        A Windows service in C# that keeps software in sync across a fleet of PCs with no server at all: a
+        private GitHub repository is the control plane. Each agent pulls a manifest through the GitHub API,
+        diffs it against what is installed, downloads changes, checks every file against a SHA-256 hash and
+        installs it atomically; removing a program from the manifest uninstalls it everywhere on the next
+        sync. Agents report back by committing heartbeats to a separate branch and update themselves by
+        comparing the hash of their own running executable. A web console adds Wake-on-LAN, remote restart
+        and a live remote-control session that always shows a banner on the target machine and is audited.
       </p>
       <div class="flag-feats">
         <div class="ff"><div class="fn">CONTROL PLANE</div><div class="fd">GitHub is the only infrastructure — zero servers</div></div>
         <div class="ff"><div class="fn">INTEGRITY</div><div class="fd">SHA-256 verified, atomic installs</div></div>
-        <div class="ff"><div class="fn">TARGETING</div><div class="fd">Scope any program to specific machines</div></div>
-        <div class="ff"><div class="fn">TELEMETRY</div><div class="fd">Two-way heartbeats + operator console</div></div>
+        <div class="ff"><div class="fn">SELF-UPDATE</div><div class="fd">Hash-based, swapped in by a one-shot SYSTEM task</div></div>
+        <div class="ff"><div class="fn">TESTED</div><div class="fd">84 xUnit tests plus Pester, releases built in CI</div></div>
       </div>
       <div class="proj-foot">
         <div class="stackline">
-          <span class="chip">Windows Service</span><span class="chip">GitHub API</span>
-          <span class="chip">PowerShell</span><span class="chip">Web console</span>
+          <span class="chip">.NET 8 Worker Service</span><span class="chip">GitHub REST API</span>
+          <span class="chip">WebSockets</span><span class="chip">PowerShell</span><span class="chip">xUnit</span>
         </div>
         <a class="repo-link" href="https://github.com/Holmsbergsviti/Orchestrator" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.27 3.4.97.1-.75.4-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.28 5.69.42.36.79 1.06.79 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
@@ -280,10 +325,10 @@
           <div><h3>AI-Driven Channel</h3><div class="c-role">AI &amp; Automation · Python</div></div>
           <span class="tag neutral">Python</span>
         </div>
-        <p>A bot that runs a whole Telegram channel by itself — it writes and posts everything, and nobody has to touch it.</p>
-        <div class="stackline"><span class="chip">LLM agent</span><span class="chip">Telegram API</span><span class="chip">Automation</span></div>
+        <p>A Python service that runs the Telegram channel <i>Signals of the Future</i> with no human in the loop. An asyncio scheduler fires twice a day, an LLM (Llama 3.3 on Groq, or GPT) writes a post in a fixed voice from a few-shot prompt, an image is generated or drawn with Pillow, and the Bot API publishes it. Every step has a fallback, so a failing provider never stops a post.</p>
+        <div class="stackline"><span class="chip">asyncio</span><span class="chip">LLM prompting</span><span class="chip">Telegram Bot API</span></div>
         <div class="c-foot">
-          <span></span>
+          <a class="repo-link" href="https://t.me/signalsOfTheFuture" target="_blank" rel="noopener">Live channel →</a>
           <a class="repo-link" href="https://github.com/Holmsbergsviti/AIDrivenFullyAutomatedChannel" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.27 3.4.97.1-.75.4-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.28 5.69.42.36.79 1.06.79 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
             Code
@@ -296,8 +341,8 @@
           <div><h3>Master-Booker</h3><div class="c-role">Full-stack · TypeScript</div></div>
           <span class="tag neutral">TypeScript</span>
         </div>
-        <p>A booking site I made for a dance studio so students can reserve lessons. Real users, written in TypeScript.</p>
-        <div class="stackline"><span class="chip">Booking system</span><span class="chip">Real client</span></div>
+        <p>Self-service lesson booking for a real dance studio. A rules engine only offers slots that keep the coach's day compact, and every booking is validated server-side in a Netlify Function before it is written to the same Firestore database the studio's calendar uses. I found and fixed a daylight-saving bug that would have brought cancelled lessons back; 112 tests, including a differential test against the calendar app.</p>
+        <div class="stackline"><span class="chip">TypeScript</span><span class="chip">Firestore</span><span class="chip">Serverless</span><span class="chip">Real client</span></div>
         <div class="c-foot">
           <span></span>
           <a class="repo-link" href="https://github.com/Holmsbergsviti/Master-Booker" target="_blank" rel="noopener">
@@ -312,8 +357,8 @@
           <div><h3>Solo Mission</h3><div class="c-role">Mobile · Swift</div></div>
           <span class="tag neutral">Swift</span>
         </div>
-        <p>A small arcade game for iPhone, written in Swift. I made it to learn how mobile games fit together.</p>
-        <div class="stackline"><span class="chip">iOS</span><span class="chip">Game loop</span></div>
+        <p>A vertical-scrolling space shooter for iPhone built with SpriteKit: physics-based collisions, enemy waves, boss fights with their own health, collectable currency, a shop for ship skins and a saved high score, split into separate scenes for menu, gameplay and game over.</p>
+        <div class="stackline"><span class="chip">SpriteKit</span><span class="chip">GameplayKit</span><span class="chip">Physics</span></div>
         <div class="c-foot">
           <span></span>
           <a class="repo-link" href="https://github.com/Holmsbergsviti/Solo-Mission" target="_blank" rel="noopener">
@@ -328,8 +373,8 @@
           <div><h3>QR &amp; Barcode Scanner</h3><div class="c-role">Mobile · Swift</div></div>
           <span class="tag neutral">Swift</span>
         </div>
-        <p>An iPhone app that scans QR codes and barcodes with the camera. Built in Swift.</p>
-        <div class="stackline"><span class="chip">iOS</span><span class="chip">Camera / AVFoundation</span></div>
+        <p>A SwiftUI app that bridges an AVFoundation capture session into SwiftUI, filters the camera's metadata output to QR and Code 128, returns the result as a typed <code>Result</code> and opens links in one tap. A second scanner built on VisionKit also reads printed text.</p>
+        <div class="stackline"><span class="chip">SwiftUI</span><span class="chip">AVFoundation</span><span class="chip">VisionKit</span></div>
         <div class="c-foot">
           <span></span>
           <a class="repo-link" href="https://github.com/Holmsbergsviti/scanQRCode" target="_blank" rel="noopener">
@@ -409,7 +454,7 @@
             <div><h3>Master-Booker</h3><div class="c-role">Dance studio</div></div>
             <span class="tag neutral">TypeScript</span>
           </div>
-          <p>Lesson booking for a dance studio.</p>
+          <p>Self-service lesson booking with a server-validated rules engine, sharing one database with the studio calendar.</p>
           <div class="c-foot">
             <span></span>
             <a class="repo-link" href="https://github.com/Holmsbergsviti/Master-Booker" target="_blank" rel="noopener">
@@ -423,7 +468,7 @@
             <div><h3>Master-Calendar</h3><div class="c-role">Dance studio</div></div>
             <span class="tag neutral">JavaScript</span>
           </div>
-          <p>Class schedule for a dance studio.</p>
+          <p>A weekly timetable on FullCalendar and Firestore that knows which of the studio's two halls is free, so double-bookings are refused. Recurring lessons, filters and stats.</p>
           <div class="c-foot">
             <span></span>
             <a class="repo-link" href="https://github.com/Holmsbergsviti/Master-Calendar" target="_blank" rel="noopener">
@@ -437,7 +482,7 @@
             <div><h3>Pro-Am Form</h3><div class="c-role">Competition</div></div>
             <span class="tag neutral">HTML</span>
           </div>
-          <p>Entry form for a Pro-Am competition.</p>
+          <p>A trilingual Instagram lead form with a Google Apps Script back-end, honeypot and timing spam filters, and cookie-free funnel analytics.</p>
           <div class="c-foot">
             <span></span>
             <a class="repo-link" href="https://github.com/Holmsbergsviti/Pro-Am-Dance-RS-Form" target="_blank" rel="noopener">
