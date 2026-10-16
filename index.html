@@ -276,97 +276,49 @@
           <span class="chip">FastAPI</span><span class="chip">PostgreSQL</span><span class="chip">Redis / ARQ</span>
           <span class="chip">Next.js</span><span class="chip">OSV</span><span class="chip">Docker</span>
         </div>
+        <div class="foot-links">
+        <a class="repo-link" href="https://vemirix.netlify.app/demo" target="_blank" rel="noopener">Live demo →</a>
         <a class="repo-link" href="https://github.com/Holmsbergsviti/vemirix-backend" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.27 3.4.97.1-.75.4-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.28 5.69.42.36.79 1.06.79 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
           View repository →
         </a>
-      </div>
-    </article>
-
-    <!-- FLAGSHIP -->
-    <article class="flagship reveal">
-      <div class="flag-top">
-        <span class="tag">Flagship · Systems</span>
-        <span class="tag neutral">C# · .NET 8</span>
-      </div>
-      <h3>Orchestrator</h3>
-      <div class="sub">A Windows tool that manages software across many machines</div>
-      <p>
-        A Windows service in C# that keeps software in sync across a fleet of PCs with no server at all: a
-        private GitHub repository is the control plane. Each agent pulls a manifest through the GitHub API,
-        diffs it against what is installed, downloads changes, checks every file against a SHA-256 hash and
-        installs it atomically; removing a program from the manifest uninstalls it everywhere on the next
-        sync. Agents report back by committing heartbeats to a separate branch and update themselves by
-        comparing the hash of their own running executable. A web console adds Wake-on-LAN, remote restart
-        and a live remote-control session that always shows a banner on the target machine and is audited.
-      </p>
-      <div class="flag-feats">
-        <div class="ff"><div class="fn">CONTROL PLANE</div><div class="fd">GitHub is the only infrastructure — zero servers</div></div>
-        <div class="ff"><div class="fn">INTEGRITY</div><div class="fd">SHA-256 verified, atomic installs</div></div>
-        <div class="ff"><div class="fn">SELF-UPDATE</div><div class="fd">Hash-based, swapped in by a one-shot SYSTEM task</div></div>
-        <div class="ff"><div class="fn">TESTED</div><div class="fd">84 xUnit tests plus Pester, releases built in CI</div></div>
-      </div>
-      <div class="proj-foot">
-        <div class="stackline">
-          <span class="chip">.NET 8 Worker Service</span><span class="chip">GitHub REST API</span>
-          <span class="chip">WebSockets</span><span class="chip">PowerShell</span><span class="chip">xUnit</span>
         </div>
-        <a class="repo-link" href="https://github.com/Holmsbergsviti/Orchestrator" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.27 3.4.97.1-.75.4-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.28 5.69.42.36.79 1.06.79 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
-          View repository →
-        </a>
       </div>
     </article>
 
     <!-- GRID -->
     <div class="proj-grid">
-            <article class="card reveal">
-        <div class="c-top">
-          <div><h3>AI-Driven Channel</h3><div class="c-role">AI &amp; Automation · Python</div></div>
-          <span class="tag neutral">Python</span>
-        </div>
-        <p>A Python service that runs the Telegram channel <i>Signals of the Future</i> with no human in the loop. An asyncio scheduler fires twice a day, an LLM (Llama 3.3 on Groq, or GPT) writes a post in a fixed voice from a few-shot prompt, an image is generated or drawn with Pillow, and the Bot API publishes it. Every step has a fallback, so a failing provider never stops a post.</p>
-        <div class="stackline"><span class="chip">asyncio</span><span class="chip">LLM prompting</span><span class="chip">Telegram Bot API</span></div>
-        <div class="c-foot">
-          <a class="repo-link" href="https://t.me/signalsOfTheFuture" target="_blank" rel="noopener">Live channel →</a>
-          <a class="repo-link" href="https://github.com/Holmsbergsviti/AIDrivenFullyAutomatedChannel" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.27 3.4.97.1-.75.4-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.28 5.69.42.36.79 1.06.79 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
-            Code
-          </a>
-        </div>
-      </article>
-
       <article class="card reveal">
         <div class="c-top">
-          <div><h3>Master-Booker</h3><div class="c-role">Full-stack · TypeScript</div></div>
+          <div><h3>Botsmith</h3><div class="c-role">Full-stack · TypeScript</div></div>
           <span class="tag neutral">TypeScript</span>
         </div>
-        <p>Self-service lesson booking for a real dance studio. A rules engine only offers slots that keep the coach's day compact, and every booking is validated server-side in a Netlify Function before it is written to the same Firestore database the studio's calendar uses. I found and fixed a daylight-saving bug that would have brought cancelled lessons back; 112 tests, including a differential test against the calendar app.</p>
-        <div class="stackline"><span class="chip">TypeScript</span><span class="chip">Firestore</span><span class="chip">Serverless</span><span class="chip">Real client</span></div>
+        <p>A no-code platform for building and hosting Telegram bots. A visual flow builder (messages, questions with validation, conditions, forms, Telegram Stars payments) compiles to a JSON flow that a shared, tested conversation engine runs on both the API and the editor's test chat. Bot tokens are encrypted at rest, webhooks require a per-bot secret, and Mini App posts are only accepted with Telegram-signed <code>initData</code>.</p>
+        <div class="stackline"><span class="chip">Fastify</span><span class="chip">React</span><span class="chip">Prisma / PostgreSQL</span><span class="chip">Turborepo</span></div>
         <div class="c-foot">
           <span></span>
-          <a class="repo-link" href="https://github.com/Holmsbergsviti/Master-Booker" target="_blank" rel="noopener">
+          <a class="repo-link" href="https://github.com/Holmsbergsviti/Botsmither" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.27 3.4.97.1-.75.4-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.28 5.69.42.36.79 1.06.79 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+            Code
+          </a>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="c-top">
+          <div><h3>Orchestrator</h3><div class="c-role">Systems · C# / .NET 8</div></div>
+          <span class="tag neutral">C#</span>
+        </div>
+        <p>A Windows service that keeps software in sync across a fleet of PCs with no server: a private GitHub repo is the control plane. Agents diff a manifest against what is installed, verify every download by SHA-256, report back via heartbeats on a separate branch and update themselves by hashing their own executable. A web console adds Wake-on-LAN and an audited, always-visible remote-control session.</p>
+        <div class="stackline"><span class="chip">.NET 8</span><span class="chip">GitHub API</span><span class="chip">WebSockets</span><span class="chip">xUnit</span></div>
+        <div class="c-foot">
+          <span></span>
+          <a class="repo-link" href="https://github.com/Holmsbergsviti/Orchestrator" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.27 3.4.97.1-.75.4-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.28 5.69.42.36.79 1.06.79 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
             Code
           </a>
         </div>
       </article>
 
-      <article class="card reveal">
-        <div class="c-top">
-          <div><h3>Solo Mission</h3><div class="c-role">Mobile · Swift</div></div>
-          <span class="tag neutral">Swift</span>
-        </div>
-        <p>A vertical-scrolling space shooter for iPhone built with SpriteKit: physics-based collisions, enemy waves, boss fights with their own health, collectable currency, a shop for ship skins and a saved high score, split into separate scenes for menu, gameplay and game over.</p>
-        <div class="stackline"><span class="chip">SpriteKit</span><span class="chip">GameplayKit</span><span class="chip">Physics</span></div>
-        <div class="c-foot">
-          <span></span>
-          <a class="repo-link" href="https://github.com/Holmsbergsviti/Solo-Mission" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.27 3.4.97.1-.75.4-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.28 5.69.42.36.79 1.06.79 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
-            Code
-          </a>
-        </div>
-      </article>
 
       <article class="card reveal">
         <div class="c-top">
@@ -383,6 +335,22 @@
           </a>
         </div>
       </article>
+
+            <article class="card reveal">
+        <div class="c-top">
+          <div><h3>AI-Driven Channel</h3><div class="c-role">AI &amp; Automation · Python</div></div>
+          <span class="tag neutral">Python</span>
+        </div>
+        <p>A Python service that runs the Telegram channel <i>Signals of the Future</i> with no human in the loop. An asyncio scheduler fires twice a day, an LLM (Llama 3.3 on Groq, or GPT) writes a post in a fixed voice from a few-shot prompt, an image is generated or drawn with Pillow, and the Bot API publishes it. Every step has a fallback, so a failing provider never stops a post.</p>
+        <div class="stackline"><span class="chip">asyncio</span><span class="chip">LLM prompting</span><span class="chip">Telegram Bot API</span></div>
+        <div class="c-foot">
+          <a class="repo-link" href="https://t.me/signalsOfTheFuture" target="_blank" rel="noopener">Live channel →</a>
+          <a class="repo-link" href="https://github.com/Holmsbergsviti/AIDrivenFullyAutomatedChannel" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.27 3.4.97.1-.75.4-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.5 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.28 5.69.42.36.79 1.06.79 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+            Code
+          </a>
+        </div>
+      </article>
     </div>
 
     <!-- EARLY -->
@@ -391,6 +359,7 @@
       <div class="early-row">
         <a class="early-item" href="https://github.com/Holmsbergsviti/snakeGame" target="_blank" rel="noopener">Snake Game <span class="ei-lang">HTML / JS</span></a>
         <a class="early-item" href="https://github.com/Holmsbergsviti/findPair" target="_blank" rel="noopener">findPair — memory game <span class="ei-lang">JavaScript</span></a>
+        <a class="early-item" href="https://github.com/Holmsbergsviti/Solo-Mission" target="_blank" rel="noopener">Solo Mission — iOS space shooter <span class="ei-lang">Swift / SpriteKit</span></a>
       </div>
     </div>
   </section>
