@@ -1,122 +1,103 @@
-# University shortlist: Computer Science and Cyber Security, entry September 2027
+# University shortlist: Cyber Security and Computer Science in mainland Europe, entry autumn 2027
 
-**Applicant:** based in Belgrade, Serbian (non-EU fees everywhere).
-**Career goal:** penetration tester (security analyst) or digital forensic analyst. Plain Computer Science degrees are fine as well.
+**Applicant:** Serbian, based in Belgrade. Serbia counts as non-EU for fees in every country checked.
+**Career goal:** penetration tester or digital forensic analyst. Plain Computer Science degrees are fine as well.
+**Budget:** the UK is too expensive, so this list covers mainland Europe only, with tuition ideally under about €7,000 a year. Courses above €10,000 are flagged.
 **Qualifications:** Cambridge International A Levels. AS 2026: Maths a, Computer Science a, Economics a, Physics b. A2 in Maths, CS and Economics in 2027. IELTS Academic 8.0, Writing 6.5.
-**Researched:** 13 October 2026; refocused on 16 October 2026 for the career goal. Figures come from official university pages and the NCSC list where those loaded. Check every figure on the course page before you apply. Items marked *(check)* could not be confirmed on an official page. Where a 2027 fee is not published yet, the last published figure is shown.
+**Researched:** 13 to 16 October 2026, from official pages where they loaded. Items marked *(check)* could not be confirmed on an official page. Most 2027 dates are not published yet; where the 2026 date is shown, expect something similar.
 
 ## How to read this list
 
-- **NCSC-certified** means the UK's National Cyber Security Centre has checked that the degree covers cyber security properly. "Full" is the higher level; "Provisional" means the course is newer. UK employers recognise it; outside the UK it matters less. Source: [NCSC certified degrees, October 2026](https://www.ncsc.gov.uk/information/ncsc-certified-degrees).
-- **Pentesting** is hands-on work. The degree name matters less than labs, CTF teams and certifications such as OSCP, which you can earn alongside any of these degrees.
-- **Tiers** assume your school predicts about **A\*AA with A\* in Maths**, which fits AS grades of a/a/a. If your predictions are AAA, move every UK "match" up one tier.
-- **Physics stopping at AS** is not a problem anywhere on this list.
-- **IELTS Writing 6.5** meets every minimum found. Check that your certificate will still be under 2 years old on each deadline.
+- **Reach** means a hard entrance test or limited places. **Match** means your grades should get you in. **Safe** means admission is mostly a formality with your grades.
+- **Germany** needs 3 A Levels at **C or better**. For CS degrees, one must be Maths and another a science, and Computer Science counts. AS levels no longer count, so AS Physics is not needed. Predicted grades are usually accepted if the certificates follow later.
+- **IELTS 8.0 meets every minimum found.** The highest is HTW Berlin at 7.0. Check your certificate will still be under 2 years old on each deadline.
+- **Living costs** matter as much as tuition. The German student visa requires a blocked account of €11,904 a year, which is a fair guide to living costs in Germany. Prague, Vilnius, Budapest and Tallinn are cheaper; Dutch cities are more expensive.
 
 ## The shortlist (12 options)
 
-| # | Tier | University and course | Focus | Typical offer / subject rules | English minimum | Deadline (2027 entry) | Tests and extra steps | Fee per year (non-EU) |
-|---|---|---|---|---|---|---|---|---|
-| 1 | Reach | **Imperial College London**, Computing BEng (G400) / MEng; or Computing (AI and Machine Learning) MEng (G700) | General CS, top brand. No undergraduate NCSC certification. | A\*A\*A or A\*AAA, A\* in Maths. Further Maths recommended. | IELTS 6.5, 6.0 each part | UCAS **13 Jan 2027** | **TMUA required**: book by **21 Dec 2026** | £45,500 (2026-27) |
-| 2 | Reach | **University of Warwick**, Cyber Security BSc (H651) | Security. **NCSC Full.** Year 3 covers digital forensics and incident management. | AAA (AAB contextual). No required subjects; STEM recommended. | Band B: IELTS 6.5, 6.0 each part | UCAS 13 Jan 2027 | No test, no interview | £27,870 or £35,530 band (2026-27) *(check which)* |
-| 3 | Reach | **TU Delft**, Computer Science and Engineering BSc (English track) | General CS, top-ranked in Europe | 3 A Levels at A to C plus 6 GCSE/IGCSE subjects. Maths required; check which Cambridge 9709 papers count. **Numerus fixus**: 345 English-track places. | IELTS 6.5 | **15 Jan 2027** (Studielink plus the full file) | Online maths and logic tests, then a lottery by category. Compulsory matching. CV, certified grades, passport. | about €19,900 (2026-27) *(check)* |
-| 4 | Reach | **Saarland University**, Cybersecurity BSc (in English, with the CISPA research centre); Computer Science BSc as an alternative | Security, the strongest academic security bachelor in Germany | Germany needs 3 A Levels at **C or better**; Maths + CS + Economics qualifies. Selection is by SAT/TestAS (about SAT 1400+ in the past) plus a video interview, or by an on-site interview. | B2 / IELTS accepted | Early review **15 Jan 2027**; interview track by 15 Jun; final 15 Jul | SAT or interview, CV, transcripts, passport | No tuition, semester fee only |
-| 5 | Match | **University of Southampton**, Computer Science with Cyber Security MEng (II10), 4 years | CS + security. **NCSC Full.** | AAA, Maths at A | IELTS 6.5, 6.0 each part | UCAS 13 Jan 2027 | None beyond UCAS | £33,000 |
-| 6 | Match | **University of Bristol**, Computer Science BSc (G400) | General CS. Security through optional units. | A\*AA, A\* in Maths | IELTS 6.5, 6.0 each part | UCAS 13 Jan 2027 | None beyond UCAS | £34,700 |
-| 7 | Match | **Royal Holloway, University of London**, Computer Science (Cyber Security) BSc (G407) | CS + security. **NCSC Full.** Home of the Information Security Group, the oldest university security group in the UK. Year in Industry version available. | AAB to ABB, with one of CS, Maths or Physics; GCSE Maths at grade 6 | IELTS 6.5, 5.5 each part | UCAS 13 Jan 2027 | None beyond UCAS | £27,900 |
-| 8 | Match | **Lancaster University**, Cyber Security BSc (I900) | Security. **NCSC Provisional.** Core penetration testing and forensics labs. Optional placement year. | AAB; lower offer with Maths or CS | IELTS 6.0 to 6.5, 5.5 each part *(check)* | UCAS 13 Jan 2027 | None beyond UCAS | about £30,800 *(check)* |
-| 9 | Match | **Radboud University Nijmegen**, Computing Science BSc | CS with a security theme. Radboud's Digital Security group is one of the best in Europe. | VWO-equivalent; Maths required *(check A Level rules)* | *(check)* | about 1 Apr 2027 for non-EU *(check)* | *(check)* | about €17,800 *(check)* |
-| 10 | Safe | **Abertay University** (Dundee), Ethical Hacking BSc (GG45) | **Pentesting.** The UK's best-known ethical hacking degree. **NCSC Full.** | Year 1 entry: CCC. **Year 2 direct entry: ABB including CS**, which you meet, so the degree takes 3 years instead of 4. | IELTS 6.0, 5.5 each part | UCAS 13 Jan 2027 | None beyond UCAS | £17,950 (2027, provisional) |
-| 11 | Safe | **Edinburgh Napier University**, Cyber Security and Forensics BEng (GG57) | **Forensics.** **NCSC Full.** | Year 1 entry: BBC. Year 2 entry: BBB including Maths, Computing or a science. | IELTS 6.0, 5.5 each part | UCAS 13 Jan 2027 | None beyond UCAS | £21,965 |
-| 12 | Safe | **University of Twente**, Technical Computer Science BSc | General CS. No numerus fixus. | 3 A Levels at A to C plus 3 GCSEs. Maths required. | IELTS 6.0, 5.5 each part | **1 May 2027** for non-EU | Compulsory, non-binding matching (online, plus an event on 12 Mar or 4 Jun) | €16,869 (2027-28) |
+| # | Tier | University and course | Country | Tuition per year (non-EU) | Deadline (2027 entry) | Selection | Security / forensics fit |
+|---|---|---|---|---|---|---|---|
+| 1 | Reach | **Saarland University**, Cybersecurity BSc (English) | Germany | **Free** (semester fee only) | Early review **15 Jan 2027**; interview track 15 Jun; final 15 Jul | SAT/TestAS (about SAT 1400+ in the past) plus a video interview, or an on-site interview | Best academic cyber degree in Germany, next to the CISPA research centre |
+| 2 | Reach | **TalTech** (Tallinn University of Technology), Cyber Security Engineering BSc | Estonia | €7,000 | 1 Feb to **22 Mar 2027** for non-EU applicants | 5-hour online test, motivation letter, interview | Very specialised: pentesting, malware, forensics, incident response. Tallinn hosts NATO's cyber defence centre. |
+| 3 | Reach | **Czech Technical University in Prague**, Informatics BSc, Information Security specialisation (Faculty of Information Technology) | Czechia | about €5,250 *(check)* | about 1 Jan to 31 Mar 2027 | Faculty maths test in May, or the SCIO online test | Strong security department and CTF culture. You choose the specialisation after starting. |
+| 4 | Match | **HTW Berlin** (university of applied sciences), Cyber Security and Business BSc | Germany | **Free** (semester fee €375) | **1 May to 30 Jun 2027**, via uni-assist | Places ranked by grades; IELTS 7.0 | IT forensics and incident response, network security and cryptography are core modules |
+| 5 | Match | **Vilnius University** (Kaunas Faculty), Information Systems and Cyber Security BSc | Lithuania | €5,000 | 1 May 2027 for non-EU *(check)* | Motivation letter; possible entrance exam *(check if A Levels exempt you)*; IELTS 6.5 | Most on-target curriculum found: ethical hacking and digital crime investigation |
+| 6 | Match | **Óbuda University** (Budapest), Computer Science Engineering BSc, IT Security specialisation | Hungary | about €6,400, or **free with a Stipendium Hungaricum scholarship** | Scholarship call closes about **mid-Jan 2027** *(check)* | Scholarship application, then the university's test or interview *(check)* | Named IT security specialisation |
+| 7 | Match | **University of Trento**, Computer Science BSc (English) | Italy | **€0 to €6,000**, depending on your entrance test score (free at 90+) | about late Mar 2027 (2026: apply by 23 Mar) | CEnT-S test ranking; only 25 non-EU places, one session | General CS. A strong test score makes it free. |
+| 8 | Match | **Politecnico di Torino**, Computer Engineering BSc (English track *(check)*) | Italy | **€1,373** (the rate set for Serbia) | Language certificate by about 22 May; pre-enrolment by 30 Jun | TIL test or SAT | Engineering-heavy, and leads into Torino's cybersecurity master's |
+| 9 | Match | **ELTE** (Eötvös Loránd University, Budapest), Computer Science BSc | Hungary | €6,400, or free with Stipendium Hungaricum | 30 Apr 2027; scholarship about mid-Jan | Online maths test (50% to pass) plus English interview | Strong general CS, no security specialisation |
+| 10 | Safe | **THI Ingolstadt**, Computer Science and Artificial Intelligence BSc (English) | Germany | €1,600 (€800 per semester) | 15 Apr to 15 Jul 2027, via PRIMUSS and uni-assist | Ranked by grades, weighted towards maths and programming | General CS and AI. THI may also have an English Cybersecurity BSc *(check)*. |
+| 11 | Safe | **The Hague University of Applied Sciences** (Delft campus), Applied Computer Science, Information and Cyber Security specialisation | Netherlands | **€10,528, above budget** | about 1 May 2027 for non-EU *(check)* | Diploma check only | Practical, close to The Hague's security sector |
+| 12 | Safe | **Fontys University of Applied Sciences** (Eindhoven), ICT, Cyber Security specialisation | Netherlands | **about €10,000, above budget** *(check)* | **1 May 2027**; also a February intake (deadline 15 Nov) | Diploma check only | Hands-on: vulnerability testing and incident analysis; graduates go into ethical hacking roles |
 
 ### Also worth a look
 
-**More security and forensics (UK)**
-- **University of South Wales**, Applied Cyber Security BSc (NCSC Full) or Digital Forensics BSc (NCSC Provisional). BCC, £17,200. It has the most lab-heavy forensics setup found: a security operations centre, a crime-scene house and a mock court.
-- **De Montfort University**, Cyber Security BSc. BBC, £18,600. Penetration Testing module, digital forensics option, and a placement year with employers such as Airbus and GCHQ.
-- **Portsmouth** Cyber Security and Forensic Computing, and **Greenwich** Computer Security and Digital Forensics. Both are NCSC Full; not researched in detail.
+- **Sapienza University of Rome**, Applied Computer Science and AI BSc (English). Low fees and possible regional grants. Deadline about 15 May. Leans towards AI.
+- **AGH Kraków**, Computer Science BSc (English). €6,000. Applications June to September, so it works as a late fallback.
+- **NHL Stenden** (Emmen, Netherlands), IT with a Cybersecurity specialisation and a Certified Ethical Hacking minor. €10,630, above budget.
+- **Radboud University** (Netherlands), Computing Science with a Cyber Security specialisation. The strongest Dutch security degree academically, but about €18,000 a year. Deadline 1 Apr. Needs A Level Maths at B or above.
+- **JAMK** (Finland), ICT with a cyber security option, which has a very strong security lab. €10,000, and its early round closes 19 Nov 2026.
 
-**More general CS**
-- **University of Manchester** Computer Science (A\*AA, needs 6.5 in every IELTS part, £39,700).
-- **University of Edinburgh** Computer Science (very competitive, £40,900).
-- **TU Eindhoven** Computer Science and Engineering (numerus fixus, 15 Jan, €22,400).
-- **VU Amsterdam** Computer Science (likely capped, so the deadline may be 15 Jan; check).
+**Ruled out:**
+- Most German security degrees, such as Bochum, Deggendorf and Mittweida forensics: taught in German.
+- Ireland: €18,000 to €25,000 a year.
+- Spain and Portugal: no cheap English-taught cyber degree found.
+- Tartu and Brno: CS in English at master's level only.
 
-**Germany:** THI Ingolstadt Computer Science and AI (English, €800 per semester, 15 Apr to 15 Jul), and Constructor University Bremen (private, about €20,000 a year before scholarships).
+## Money: scholarships for Serbian students
 
-## Rules that shape the plan
-
-- **UCAS allows 5 choices.** The table has 8 UK courses. A five that fits the career goal:
-  1. Warwick Cyber Security
-  2. Southampton CS with Cyber Security
-  3. Royal Holloway CS (Cyber Security)
-  4. Lancaster Cyber Security
-  5. Abertay Ethical Hacking
-
-  If forensics appeals more than pentesting, swap Abertay for Edinburgh Napier. If you want a top general CS name, swap Lancaster for Imperial or Bristol. Imperial also needs the TMUA.
-- **Studielink allows at most 2 numerus fixus programmes.** TU Delft uses one of them.
-- **Germany needs a C or better in all three A Levels.** A D in any one means no direct entry; the fallback is a foundation year (Studienkolleg). German deadlines fall before A Level results come out in August, so ask each university how it handles pending results.
-- **Oxford and Cambridge are out for this cycle.** Their deadline was 15 Oct 2026.
+- **Stipendium Hungaricum** (Hungary): Serbia is a partner country. It covers tuition, a monthly stipend and housing, at bachelor level. You apply through the Serbian Ministry of Education, and the call closed on 15 January last cycle. This is the biggest saving available, so start in November.
+- **Italian regional grants** (DSU, called EDISU in Turin): open to non-EU students who submit an "ISEE parificato" based on family income documents from Serbia. They can waive fees and add a living grant and housing *(check amounts)*.
+- **Trento**: free tuition with a test score of 90+, plus a merit scholarship for non-EU students scoring 70+.
+- **Germany**: public universities charge no tuition except in Bavaria and Baden-Württemberg, where THI charges €800 a semester.
 
 ## Key dates
 
 | Date | What |
 |---|---|
-| Now | Ask your school for predicted grades and a reference; schools often set their own deadline before January |
-| Early Dec 2026 | Book the SAT if you are going for Saarland's aptitude track |
-| **21 Dec 2026** | Last day to book the TMUA, only if you apply to Imperial |
-| **13 Jan 2027, 18:00 UK** | UCAS deadline |
-| **15 Jan 2027** | TU Delft application; Saarland early review |
-| about 1 Apr 2027 | Radboud (non-EU) *(check)* |
-| 15 Apr 2027 | TU Delft ranking results |
-| **1 May 2027** | Twente (non-EU) |
-| 15 Jun 2027 | Saarland interview-track deadline |
-| 15 Jul 2027 | Saarland final deadline |
+| Now | Ask your school for predicted grades and a reference. Book the SAT if you want Saarland's aptitude track. |
+| Nov 2026 | Stipendium Hungaricum call opens; start the Hungarian applications |
+| **15 Jan 2027** | Saarland early review |
+| **about mid-Jan 2027** | Stipendium Hungaricum deadline (Óbuda, ELTE) *(check)* |
+| **22 Mar 2027** | TalTech deadline |
+| **about late Mar 2027** | Czech Technical University (31 Mar) and Trento |
+| 30 Apr 2027 | ELTE (self-funded) |
+| **1 May 2027** | Vilnius, Fontys, The Hague; HTW Berlin opens |
+| May 2027 | Czech Technical University maths test; Sapienza (about 15 May) |
+| 30 Jun 2027 | HTW Berlin closes; Politecnico di Torino pre-enrolment |
+| 15 Jul 2027 | Saarland final deadline; THI closes |
 
 ## Documents you need
 
 **For everyone**
 - Passport
 - IELTS Academic certificate (check it is still under 2 years old on the deadline)
-- AS results statement for 2026 and predicted A Level grades
-- GCSE/IGCSE results (the Dutch universities count them towards six subjects)
+- AS results statement for 2026 and predicted A Level grades; final certificates once you have them
 - School transcripts, with certified English translations of anything in Serbian
+- CV and motivation letter. Most of these courses ask for one, and for security courses your CTFs, TryHackMe or Hack The Box progress and your own security projects are strong evidence.
 
-**UK (one UCAS application)**
-- Personal statement: 4,000 characters in total, answering three questions (why this subject; how your studies prepared you; what you have done outside school), at least 350 characters each. For security courses, CTFs, TryHackMe or Hack The Box progress and your own security projects are strong evidence for the third question.
-- School reference with predicted grades
-- TMUA result (Imperial only)
-
-**Netherlands**
-- English CV (TU Delft)
-- Certified grade list and diploma uploaded to each university's portal
-- Matching or selection activities (Delft, Twente)
-
-**Germany**
-- CV and motivation letter
-- Official Cambridge certificates (a school certificate alone is not enough)
-- SAT score or interview (Saarland)
-- After an offer: a German national student visa, which needs a blocked account of about €11,900 a year
+**By country**
+- **Germany:** uni-assist eligibility check for HTW Berlin and THI (about €75 for the first application); official Cambridge certificates; SAT or interview for Saarland. After an offer: a national student visa and the €11,904 blocked account.
+- **Italy:** pre-enrolment on Universitaly, a declaration of value or CIMEA statement for your diploma *(check which)*, and an ISEE parificato if you want a regional grant.
+- **Hungary:** Stipendium Hungaricum application through the Serbian Ministry of Education.
+- **Estonia, Czechia, Lithuania:** online application on each university's portal, plus that university's test or interview.
 
 ## Sources
 
-- NCSC certified degrees: https://www.ncsc.gov.uk/information/ncsc-certified-degrees
-- Imperial Computing: https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/ and deadlines https://www.imperial.ac.uk/study/apply/undergraduate/process/deadlines/
-- Warwick Cyber Security: https://warwick.ac.uk/study/undergraduate/courses/bsc-cyber-security
-- Southampton: https://www.southampton.ac.uk/courses/computer-science-with-cyber-security-degree-meng
-- Bristol: https://www.bristol.ac.uk/study/undergraduate/2027/computer-science/bsc-computer-science/
-- Royal Holloway: https://www.royalholloway.ac.uk/studying-here/undergraduate/computer-science/computer-science-cyber-security/
-- Lancaster: https://lancaster.ac.uk/study/undergraduate/courses/cyber-security-bsc-hons-i900
-- Abertay Ethical Hacking: https://www.ucas.com/explore/courses/f6638327-c9d6-b294-8a9c-bf7c7d06fb59/ethical-hacking
-- Edinburgh Napier: https://www.ucas.com/explore/courses/692b686c-7cf3-45db-b6fb-ef2c229b361a/cyber-security-and-forensics
-- University of South Wales: https://www.southwales.ac.uk/courses/bsc-hons-applied-cyber-security
-- De Montfort: https://www.dmu.ac.uk/study/courses/undergraduate-courses/cyber-security-bsc-degree/cyber-security-bsc-hons.aspx
-- Manchester: https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/
-- TU Delft: https://www.tudelft.nl/en/education/admission-and-application/bsc-international-diploma/admission-requirements
-- Radboud: https://www.study.eu/university/radboud-university/bsc-computing-science
-- Twente: https://www.utwente.nl/en/education/bachelor/programmes/technical-computer-science/
 - Saarland Cybersecurity: https://uni-saarland.de/en/study/programmes/bachelor/cybersecurity-english.html
+- TalTech Cyber Security Engineering: https://taltech.ee/cyber-bsc
+- Czech Technical University, FIT admissions: https://fit.cvut.cz/en/applicants/admissions-procedure/bachelor-study-program
+- HTW Berlin Cyber Security and Business: https://cyber-security-business.htw-berlin.de/application and https://cyber-security-business.htw-berlin.de/degree/faq
+- Vilnius University: https://admissions.vu.lt/studies/bachelor-studies/information-systems-and-cyber-security-1
+- Óbuda University, Stipendium Hungaricum: https://uni-obuda.hu/stipendium-hungaricum/
+- ELTE Computer Science: https://www.inf.elte.hu/en/apply-computer-science-bsc
+- Trento admission call 2026-27: https://corsi.unitn.it/sites/cds/files/2025-12/call-admission-disi-26-27_eng.pdf
+- Sapienza ACSAI: https://i3s.web.uniroma1.it/sites/default/files/allegati/2026-05/bando-acsai.pdf
 - THI Ingolstadt: https://www.thi.de/en/computer-science/degree-programmes/computer-science-and-artificial-intelligence-bsc/
+- The Hague University: https://www.thuas.com/programmes/bachelors/applied-computer-science
+- Fontys ICT: https://www.fontys.nl/en/Programmes/Information-Communication-Technology-bachelor-full-time
+- NHL Stenden: https://www.nhlstenden.com/en/courses/information-technology
+- Radboud diploma requirements: https://www.ru.nl/sites/default/files/2025-11/20250915-computing-science-diploma-specific-admission-requirements-2026-2027_def_1.pdf
+- AGH Kraków: https://international.agh.edu.pl/en/studies/education-offer-bachelor-studies
+- JAMK: https://jamk.fi/en/apply-to-jamk/ict
 - German recognition of A Levels: https://www.daad.de/en/studying-in-germany/requirements/gce/
-- UCAS 2027 dates: https://www.theprofs.co.uk/student-resources/university-applications/ucas-key-dates-and-deadlines-for-2027-entry/
