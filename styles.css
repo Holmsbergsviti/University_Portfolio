@@ -231,6 +231,7 @@
   .card:hover .repo-link{color:var(--amber);}
   .repo-link.disabled{color:var(--faint); cursor:default;}
   .repo-link svg{width:14px; height:14px;}
+  .foot-links{display:inline-flex; gap:18px; flex-wrap:wrap;}
 
   .early{margin-top:22px; border:1px dashed var(--line-2); border-radius:var(--radius); background:rgba(18,23,31,.4); padding:22px 26px;}
   .early .e-h{font-family:var(--f-mono); font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); margin-bottom:16px;}
