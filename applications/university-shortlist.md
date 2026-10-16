@@ -28,9 +28,15 @@
 | 9 | Match | **ELTE** (Eötvös Loránd University, Budapest), Computer Science BSc | Hungary | €6,400, or free with Stipendium Hungaricum | 30 Apr 2027; scholarship about mid-Jan | Online maths test (50% to pass) plus English interview | Strong general CS, no security specialisation |
 | 10 | Safe | **THI Ingolstadt**, Computer Science and Artificial Intelligence BSc (English) | Germany | €1,600 (€800 per semester) | 15 Apr to 15 Jul 2027, via PRIMUSS and uni-assist | Ranked by grades, weighted towards maths and programming | General CS and AI. THI may also have an English Cybersecurity BSc *(check)*. |
 | 11 | Safe | **The Hague University of Applied Sciences** (Delft campus), Applied Computer Science, Information and Cyber Security specialisation | Netherlands | **€10,528, above budget** | about 1 May 2027 for non-EU *(check)* | Diploma check only | Practical, close to The Hague's security sector |
-| 12 | Safe | **Fontys University of Applied Sciences** (Eindhoven), ICT, Cyber Security specialisation | Netherlands | **about €10,000, above budget** *(check)* | **1 May 2027**; also a February intake (deadline 15 Nov) | Diploma check only | Hands-on: vulnerability testing and incident analysis; graduates go into ethical hacking roles |
+| 12 | Safe | **Howest University of Applied Sciences** (Bruges), Bachelor in Cyber Security | Belgium | €7,157 *(check)* | *(check on howest.be; Belgian deadlines for non-EU are usually spring)* | No prior IT knowledge required | Very on-target: pentesting of systems, web apps and networks, forensic analysis, malware reverse engineering |
 
 ### Also worth a look
+
+- **Fontys University of Applied Sciences** (Eindhoven), ICT with a Cyber Security specialisation. Hands-on ethical hacking route, but about €10,000, above budget. It also has a February intake (deadline 15 Nov).
+- **Johannes Kepler University Linz** (Austria), Artificial Intelligence BSc. Taught in English, no admission test, B2 English needed. Austria's standard non-EU fee is about €727 per semester *(check)*. AI rather than security.
+- **Free University of Bozen-Bolzano** (Italy), Computer Science BSc. About €1,600 a year; trilingual university with an online language test *(check how much is in English)*. Admission rounds roughly March to April and May to July.
+- **University of Pavia** with Milano-Bicocca and Milano Statale (Italy), Artificial Intelligence BSc (English). Low income-based fees. AI rather than security.
+- **University of Bayreuth** (Germany), Data, Science and AI BSc (English). Low or no tuition *(check)*. Data science rather than security.
 
 - **Sapienza University of Rome**, Applied Computer Science and AI BSc (English). Low fees and possible regional grants. Deadline about 15 May. Leans towards AI.
 - **AGH Kraków**, Computer Science BSc (English). €6,000. Applications June to September, so it works as a late fallback.
@@ -39,10 +45,27 @@
 - **JAMK** (Finland), ICT with a cyber security option, which has a very strong security lab. €10,000, and its early round closes 19 Nov 2026.
 
 **Ruled out:**
+- **Taught in German (need C1):** RWTH Aachen, TU Darmstadt, TU Berlin, KIT and the University of Basel. TU Darmstadt is the strongest for IT security among them. They only make sense if you will have German C1 by summer 2027.
+- THWS Schweinfurt Applied Mathematics: not a CS or security degree.
 - Most German security degrees, such as Bochum, Deggendorf and Mittweida forensics: taught in German.
 - Ireland: €18,000 to €25,000 a year.
 - Spain and Portugal: no cheap English-taught cyber degree found.
 - Tartu and Brno: CS in English at master's level only.
+
+## Your own list, checked (16 October 2026)
+
+| Option | Verdict |
+|---|---|
+| Saarland Cybersecurity and Computer Science | **Keep.** Free and the best fit. The "IB 24" figure on your portal doesn't apply to you: with A Levels you need C or better in all three, plus the SAT or an interview. |
+| HTW Berlin Cyber Security and Business | **Keep.** Free, and it includes IT forensics. |
+| Howest Cyber Security (Bruges) | **Added to the shortlist.** At €7,157 it's within budget, and its course content is the closest match to pentesting and forensics. |
+| Politecnico di Torino Computer Engineering | **Keep.** The fixed non-EU fee for Serbia is €1,373 a year. Filing an ISEE parificato for an EDISU grant can bring it lower. |
+| University of Trento Computer Science | **Keep.** Fees run from €0 to €6,000 depending on your entrance test score, a wider range than the €1,000 to €4,500 your sheet shows. |
+| Sapienza, JKU Linz, Bozen-Bolzano, Pavia AI | **Good cheap backups.** All are listed above, but none is a security degree. |
+| Hanze Applied Computer Science (€9,639), NHL Stenden Computer Science (€10,335) | **Above budget and general.** If you want NHL Stenden, its IT degree with the Cybersecurity specialisation fits you better than its CS degree. |
+| University of Bayreuth Data, Science and AI | Fine as a fallback, but it isn't a security degree. |
+| THWS Schweinfurt Applied Mathematics | **Drop.** It's a maths degree, not CS or security. |
+| RWTH, TU Darmstadt, TU Berlin, KIT, Basel | **These need German at C1 level.** Your sheet says RWTH needs Maths plus Physics or Chemistry. Under the German rules, Maths plus Computer Science also qualifies. |
 
 ## Money: scholarships for Serbian students
 
@@ -100,4 +123,7 @@
 - Radboud diploma requirements: https://www.ru.nl/sites/default/files/2025-11/20250915-computing-science-diploma-specific-admission-requirements-2026-2027_def_1.pdf
 - AGH Kraków: https://international.agh.edu.pl/en/studies/education-offer-bachelor-studies
 - JAMK: https://jamk.fi/en/apply-to-jamk/ict
+- Howest Cyber Security: https://www.study.eu/university/howest-university-of-applied-sciences/bachelor-cyber-security
+- JKU Linz Artificial Intelligence: https://www.jku.at/en/degree-programs/types-of-degree-programs/bachelors-and-diploma-degree-programs/ba-artificial-intelligence/
+- University of Bayreuth Data, Science and AI: https://www.uni-bayreuth.de/en/bachelor/data-science-and-ai
 - German recognition of A Levels: https://www.daad.de/en/studying-in-germany/requirements/gce/
