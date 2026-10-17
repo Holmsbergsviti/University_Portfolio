@@ -67,7 +67,7 @@ Countries you have ruled out: Estonia, Czechia, Lithuania and Hungary. Italian d
 - Ireland: €18,000 to €25,000 a year.
 - Spain and Portugal: no cheap English-taught cyber degree found.
 - Estonia, Czechia, Lithuania and Hungary: you have ruled these out.
-- **Germany and Austria** (Saarland, HTW Berlin, THI Ingolstadt, JKU Linz, Bayreuth): they need final A Level results before their deadlines and don't accept predicted grades, so they only work with a gap year.
+- **Public universities in Germany and Austria** (Saarland, HTW Berlin, THI Ingolstadt, JKU Linz, Bayreuth): they need final A Level results before their deadlines and don't accept predicted grades, so they only work with a gap year. Private German universities are covered in their own section below.
 - Free University of Bozen-Bolzano Computer Science: taught in Italian, German and English, and you must reach C1 in two of them to graduate.
 
 ## Applying before your A Level results
@@ -94,6 +94,24 @@ Your A Level results arrive in mid-August 2027. Here is how each remaining unive
 - **Italy, Belgium and the Netherlands accept conditional applications.** For Trento and Padova, which want the diploma by 31 July, ask whether a school letter confirming you sat the exams counts until results arrive.
 - **For Bocconi, your IGCSE and AS grades carry the decision**, so the strong AS results help.
 - **Every conditional application needs a school letter** giving your predicted grades and expected graduation date. Ask your school for one now.
+
+## Germany: only private universities work without a gap year
+
+Public German universities can't take you for autumn 2027. uni-assist, which checks applications for most of them, says: "Predicted grades issued by your school are not sufficient" and "AS Levels cannot be taken into consideration." Your results arrive in mid-August, after their deadlines. Private universities take applications directly, so some of them do give conditional offers.
+
+| University | Programme (English) | Tuition per year | Predicted grades? | Deadline | Notes |
+|---|---|---|---|---|---|
+| **SRH University** (Berlin, Heidelberg and others) | Computer Science BSc | about €9,800 plus €1,000 enrolment | **Yes.** Conditional acceptance on your current transcripts; final certificate due before you start. | All year for non-EU | Best fit among the private options |
+| **Lancaster University Leipzig** | Computer Science BSc or Cyber Security BSc (a UK degree) | €18,500; scholarships up to €10,000 | **Yes.** "You can apply even if you are still waiting for final academic or English documentation." Typical offer BBB. | All year | Strongest degree of these, but expensive without a scholarship |
+| **Constructor University Bremen** | Computer Science; Software, Data and Technology | €23,850; merit scholarship up to €11,000, and a JetBrains scholarship that can cover everything | **Yes.** Decides on your school transcripts; final results at enrolment *(check)*. | **Early Action closes 1 Feb 2027** (best for scholarships); then rolling to 31 Jul | Your December SAT helps here |
+| **IU International University** (Cologne campus) | Computer Science BSc | about €6,800 plus €1,500 registration | *(check)* | No fixed deadline | Cheapest; ask about conditional admission |
+| **FHM** | Cyber and Computer Security BSc | €7,500 plus €500 exam fee | *(check)* | All year | Cyber-specific, but lower-tier |
+| **CODE University Berlin** | Software Engineering BSc | €13,800 | *(check)* | All year *(check)* | Project-based teaching |
+
+**Things to know**
+- **Visa:** German student visas from Belgrade are booked through VisaMetric and can take up to 90 days, with possible extra checks for Russian passport holders. Apply in spring with your conditional offer. You also need a blocked account of €11,904 a year.
+- **Sanctions:** the University of Bonn has barred Russian citizens from cybersecurity courses, so far only at master's level. For a Russian passport, Computer Science is a safer choice than Cyber Security in Germany. Ask before applying.
+- **Avoid DAAD scholarships:** Russia listed the DAAD as an "undesirable organisation" in 2026.
 
 ## Russian citizenship: what changes
 
@@ -171,3 +189,8 @@ Your A Level results arrive in mid-August 2027. Here is how each remaining unive
 - AGH Kraków: https://international.agh.edu.pl/en/studies/education-offer-bachelor-studies
 - JAMK: https://jamk.fi/en/apply-to-jamk/ict
 - Howest Cyber Security: https://www.study.eu/university/howest-university-of-applied-sciences/bachelor-cyber-security
+
+- uni-assist rules for British qualifications: https://www.uni-assist.de/en/tools/info-country-by-country/details-country/country/gb/
+- SRH Computer Science admission: https://www.srh-university.de/en/bachelor/computer-science/bachelor-computer-science-admission-requirements-in-detail/
+- Lancaster Leipzig admission: https://www.lancasterleipzig.de/admission/
+- Constructor University: https://constructor.university/admission-aid/application-information-undergraduate
