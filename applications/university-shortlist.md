@@ -75,6 +75,35 @@ Countries you have ruled out: Estonia, Czechia, Lithuania and Hungary. Italian d
 - Estonia, Czechia, Lithuania and Hungary: you have ruled these out.
 - Free University of Bozen-Bolzano Computer Science: taught in Italian, German and English, and you must reach C1 in two of them to graduate.
 
+## Applying before your A Level results
+
+Your A Level results arrive in mid-August 2027. Here is how each university treats an application made with your AS results and predicted grades. Checked 17 October 2026, mostly against 2026 rules.
+
+| Programme | Can you apply before results? | What they want when you apply | When final results are due |
+|---|---|---|---|
+| Saarland Cybersecurity | **No, in practice.** Interim grades are not accepted. | Your latest certificates plus the test or interview track | 15 Jul, before your results |
+| HTW Berlin | **No.** uni-assist says predicted grades are not enough and AS Levels don't count. | Official results | Before the 30 Jun deadline |
+| THI Ingolstadt | **No** *(check)*, same uni-assist rule | Official results | 15 Jul |
+| JKU Linz | **No** *(check)*. Non-EU deadline is 31 Mar. | Final certificate | By the deadline |
+| Bocconi | **Yes, conditional.** Predicted grades are ignored; they judge your official 2025 and 2026 results (IGCSE and AS). | Official grades from the last two finished years | End of Aug 2027 |
+| Trento | **Yes, conditional.** Ranking is by CEnT-S only. | Grades from your last 2 school years | Diploma "by 31 Jul". **Ask whether a school letter confirming you sat the June exams is enough.** |
+| Sapienza | **Unclear** *(email acsai@di.uniroma1.it)* | SAT and a school average of 75%+ | At enrolment |
+| Padova | **Yes, conditional** | Documents via apply.unipd.it. **The first call may close 15 Nov 2026** *(check now)*. | Completion by 31 Jul; same question as Trento |
+| Politecnico di Torino | **Yes, conditional** | Current school records or a school letter with your expected graduation date | about 30 Sep |
+| Milan/Pavia AI | **Yes, conditional** | Latest transcript or a school letter, plus SAT 979+ | 30 Sep |
+| Ca' Foscari | **Yes, conditional** | Pre-evaluation online from Dec 2026 | At enrolment, by about 18 Dec |
+| Genoa | **Unclear** *(check)* | – | – |
+| Howest | **Yes, conditional**, with a provisional acceptance you can use for the visa | Current transcript plus a school letter on your expected graduation; visa applicants apply by 1 Jun | Diploma upload from 1 Jul *(check how they handle August results)* |
+| The Hague University | **Yes, conditional** *(check)* | Studielink by 1 May | 31 Aug |
+| Fontys | **Yes, conditional** | Preliminary grades; apply by 1 May | Late August *(check)* |
+
+**What this means**
+
+- **The German and Austrian options don't work for autumn 2027** (Saarland, HTW Berlin, THI, JKU). Their deadlines fall before your results, and they don't accept predicted grades. You could apply to them in summer 2028 with your real results, after a gap year.
+- **Italy, Belgium and the Netherlands accept conditional applications.** For Trento and Padova, which want the diploma by 31 July, ask whether a school letter confirming you sat the exams counts until results arrive.
+- **For Bocconi, your IGCSE and AS grades carry the decision**, so the strong AS results help.
+- **Every conditional application needs a school letter** giving your predicted grades and expected graduation date. Ask your school for one now.
+
 ## Your own list, checked (16 October 2026)
 
 | Option | Verdict |
@@ -133,6 +162,11 @@ Countries you have ruled out: Estonia, Czechia, Lithuania and Hungary. Italian d
 - Saarland Cybersecurity: https://uni-saarland.de/en/study/programmes/bachelor/cybersecurity-english.html
 - HTW Berlin Cyber Security and Business: https://cyber-security-business.htw-berlin.de/application and https://cyber-security-business.htw-berlin.de/degree/faq
 - Trento admission call 2026-27: https://corsi.unitn.it/sites/cds/files/2025-12/call-admission-disi-26-27_eng.pdf
+- Saarland application process: https://cysec.uni-saarland.de/bachelor/cybersecurity/application-process
+- uni-assist rules for British qualifications: https://www.uni-assist.de/tools/laenderhinweise/laenderdetails/country/gb/
+- Bocconi secondary school diplomas: https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/secondary-school-diplomas
+- Padova entry requirements: https://www.unipd.it/en/entry-title-requirements
+- Howest English programmes: https://www.howest.be/en/applications-for-english-taught-degree-programmes
 - Bocconi: https://www.unibocconi.it/en/programs/bachelor-science/application-and-admission/timeline-and-selection
 - Padova Information Engineering: https://www.unipd.it/sites/unipd.it/files/2025/Information%20Engineering_non-EU%20students%20residing%20abroad.pdf
 - Milan/Pavia AI: https://en.unipv.it/sites/sten/files/2026-04/Artificial%20Intelligence%202026-2027_ENG.pdf
