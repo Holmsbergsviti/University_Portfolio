@@ -1,6 +1,6 @@
 # University shortlist: Cyber Security and Computer Science in mainland Europe, entry autumn 2027
 
-**Applicant:** Serbian, based in Belgrade. Serbia counts as non-EU for fees in every country checked.
+**Applicant:** Russian citizen, living in Belgrade, Serbia. Non-EU fees everywhere; some Italian universities set the fee by citizenship (figures below are for Russia).
 **Career goal:** penetration tester or digital forensic analyst. Plain Computer Science degrees are fine as well.
 **Budget:** the UK is too expensive, so this list covers mainland Europe only, with tuition ideally under about €7,000 a year. Courses above €10,000 are flagged.
 **Qualifications:** Cambridge International A Levels. AS 2026: Maths a, Computer Science a, Economics a, Physics b. A2 in Maths, CS and Economics in 2027. IELTS Academic 8.0, Writing 6.5.
@@ -20,13 +20,13 @@ Countries you have ruled out: Estonia, Czechia, Lithuania and Hungary. Italian d
 
 | # | Tier | University and course | Country | Tuition per year (non-EU) | Deadline (2027 entry) | Selection | Security / forensics fit |
 |---|---|---|---|---|---|---|---|
-| 1 | Reach | **Bocconi University** (Milan), BSc Mathematical and Computing Sciences for Artificial Intelligence | Italy | **€17,000, well above budget.** The ISU Bocconi grant (income-based, open to all nationalities) can cut it and add a stipend. | **Winter round 25 Nov 2026 to 26 Jan 2027**, the last round (the early round has closed) | Bocconi online test (at least 11/24 in maths) or SAT; 55% test, 45% school grades. About 15–22% get in *(check)*. | Maths- and theory-heavy; little hands-on security |
+| 1 | Reach | **Bocconi University** (Milan), BSc Mathematical and Computing Sciences for Artificial Intelligence | Italy | **€17,700 (2027-28), well above budget.** The ISU Bocconi grant (income-based, open to all nationalities) can cut it and add a stipend. | **Winter round 25 Nov 2026 to 26 Jan 2027**, the last round (the early round has closed) | Bocconi online test (at least 11/24 in maths) or SAT; 55% test, 45% school grades. About 15–22% get in *(check)*. | Maths- and theory-heavy; little hands-on security |
 | 2 | Reach | **University of Trento**, Computer Science BSc (English) | Italy | **€0 to €6,000**, depending on your test score (free at 90+) | Apply by about 23 Mar; test by 31 Mar | CEnT-S test only. Very competitive: the 2026 non-EU cutoff was 90.5/100, with 224 applicants for 25 places. | General CS. A strong test score makes it free. |
-| 3 | Match | **Sapienza University of Rome**, Applied Computer Science and AI BSc (English) | Italy | **€300** flat (the rate for Serbia) | Pre-selection 15 May; test by 18 Jun; Universitaly 30 Jun | SAT, English TOLC-I or CEnT-S; minimum 36/100. 60 non-EU places. | General CS leaning to AI; Rome has a strong security research group |
+| 3 | Match | **Sapienza University of Rome**, Applied Computer Science and AI BSc (English) | Italy | **€700** for Russian citizens (Serbian citizens pay €300; ask whether your Serbian residence counts) | Pre-selection 15 May; test by 18 Jun; Universitaly 30 Jun | SAT, English TOLC-I or CEnT-S; minimum 36/100. 60 non-EU places. | General CS leaning to AI; Rome has a strong security research group |
 | 4 | Match | **University of Padova**, Information Engineering BSc (English) | Italy | €2,990 | **First call may close 15 Nov 2026** *(check now)*; a later window ran 7 Jan to 7 Mar in 2026 | CEnT-S, score of 38+ including 7+ correct in maths. 100 non-EU places. | CS plus networks |
-| 5 | Match | **Politecnico di Torino**, Computer Engineering BSc (runs in Italian and in English; choose the English version *(check when applying)*) | Italy | €1,325 to €2,601 (the Serbia range); ask for a reduction by about 10 Dec | TIL test sessions Feb to 22 May; Universitaly 30 Jun | TIL-I test or SAT | Engineering-heavy, with cybersecurity courses, and leads into Torino's cybersecurity master's |
-| 6 | Match | **University of Milan, Pavia and Milano-Bicocca** (joint), Artificial Intelligence BSc (English) | Italy | about €1,520 if enrolled through Pavia; ISEE-based reductions possible *(check)* | Application 28 Apr to 18 May 2027 *(2026 dates)* | SAT 979+ out of 1600. 45 non-EU places. | AI rather than security |
-| 7 | Match | **Howest University of Applied Sciences** (Bruges), Bachelor in Cyber Security (English version *(confirm on howest.be; a Dutch version also runs)*) | Belgium | €7,157 *(check)* | *(check on howest.be; Belgian deadlines for non-EU are usually spring)* | No prior IT knowledge required | Most on-target course on the list: pentesting of systems, web apps and networks, forensic analysis, malware reverse engineering |
+| 5 | Match | **Politecnico di Torino**, Computer Engineering BSc (runs in Italian and in English; choose the English version *(check when applying)*) | Italy | **€1,485** for Russian citizens (2025-26 rules) | TIL test sessions Feb to 22 May; Universitaly 30 Jun | TIL-I test or SAT | Engineering-heavy, with cybersecurity courses, and leads into Torino's cybersecurity master's |
+| 6 | Match | **University of Milan, Pavia and Milano-Bicocca** (joint), Artificial Intelligence BSc (English) | Italy | about €1,500 at Pavia's rate for Russian citizens; ISEE-based reductions possible *(check which university handles your fees)* | Application 28 Apr to 18 May 2027 *(2026 dates)* | SAT 979+ out of 1600. 45 non-EU places. | AI rather than security |
+| 7 | Match | **Howest University of Applied Sciences** (Bruges), Bachelor in Cyber Security (English version *(confirm on howest.be; a Dutch version also runs)*) | Belgium | **€8,000** for non-EEA students (2026-27), plus a €13,200 blocked account paid to Howest | *(check on howest.be; Belgian deadlines for non-EU are usually spring)* | No prior IT knowledge required | Most on-target course on the list: pentesting of systems, web apps and networks, forensic analysis, malware reverse engineering |
 | 8 | Safe | **Ca' Foscari University of Venice**, Computer Science BSc, Data Science curriculum (English) | Italy | €1,300 | Several rounds through the year *(check)* | TOLC-I or CEnT-S taken before applying. About 30 non-EU places. | General CS and data |
 | 9 | Safe | **University of Genoa**, Computer Engineering BSc (English, Imperia campus) | Italy | Income-based *(check the fee calculator)* | *(check)* | Open access, no cap on places | Computer engineering; Genoa has a security lab |
 | 10 | Safe | **The Hague University of Applied Sciences** (Delft campus), Applied Computer Science, Information and Cyber Security specialisation | Netherlands | **€10,528, above budget** | about 1 May 2027 for non-EU *(check)* | Diploma check only | Practical, close to The Hague's security sector |
@@ -44,7 +44,7 @@ Countries you have ruled out: Estonia, Czechia, Lithuania and Hungary. Italian d
 2. **Universitaly pre-enrolment.** Once you are accepted, register on universitaly.it, usually by about 30 June. The university validates it.
 3. **Visa.** The Italian embassy in Belgrade then issues the study visa.
 4. **Recognition of your diploma.** You need either a Declaration of Value from the Italian embassy or a CIMEA Statement of Comparability, which you get online. Most universities accept either.
-5. **Regional grants (DSU).** Non-EU students can apply using an "ISEE parificato": Serbian documents on family income, property and members, translated and apostilled, then processed by a CAF office (often free through the university's partner CAF). Winners get:
+5. **Regional grants (DSU).** Non-EU students can apply using an "ISEE parificato": documents on family income, property and members (from Serbia, and possibly Russia), translated and apostilled, then processed by a CAF office (often free through the university's partner CAF). Winners get:
    - a fee exemption
    - a cash grant (often €5,000 to €7,000 for students living away from home)
    - housing and meals
@@ -95,23 +95,31 @@ Your A Level results arrive in mid-August 2027. Here is how each remaining unive
 - **For Bocconi, your IGCSE and AS grades carry the decision**, so the strong AS results help.
 - **Every conditional application needs a school letter** giving your predicted grades and expected graduation date. Ask your school for one now.
 
+## Russian citizenship: what changes
+
+- **No university on this list bans Russian citizens.** Sanctions under EU Regulation 833/2014 have led some universities elsewhere to close AI, IT and cybersecurity courses to Russians (Czech Technical University; Bonn at master's level). I found nothing like that in Italy, Belgium or the Netherlands, but **ask each university in writing**, especially Howest, Fontys and The Hague, whose courses are cyber-specific. The email draft includes this question.
+- **Visas:** Italy, Belgium and the Netherlands all accept student visa applications at their embassies in Belgrade from Serbian residents. Your Serbian residence permit must be valid when you apply. Expect extra checks and delays for Russian passport holders, so apply as early as you can.
+- **Fees:** Bocconi, Padova, Trento, The Hague University and Fontys charge the same whatever your citizenship. Sapienza, Politecnico di Torino, Pavia and Ca' Foscari set fees by citizenship; the figures in the table are for Russia.
+- **Italian regional grants (ISEE parificato):** you need family income and property documents from where they are earned and held, so Serbia and possibly Russia. Russian documents must be apostilled in Russia, which is hard from Belgrade. Ask the grant office whether a Serbian tax certificate plus a declaration that you hold no Russian property is enough.
+- **Payments:** pay fees, deposits and Howest's blocked account from a **Serbian bank account**, and keep proof of funds in Serbian or EU banks. The main Russian banks are cut off from international transfers.
+
 ## Your own list, checked (16 October 2026)
 
 | Option | Verdict |
 |---|---|
 | Saarland Cybersecurity and Computer Science, HTW Berlin, THI, JKU Linz, Bayreuth | **Removed.** German and Austrian universities need your final A Level results before their deadlines and don't accept predicted grades. That only works with a gap year. |
 | Howest Cyber Security (Bruges) | **Added to the shortlist.** At €7,157 it's within budget, and its course content is the closest match to pentesting and forensics. |
-| Politecnico di Torino Computer Engineering | **Keep.** The fee for Serbian citizens is €1,325 to €2,601 a year. An EDISU grant through an ISEE parificato can bring it lower. |
+| Politecnico di Torino Computer Engineering | **Keep.** The fee for Russian citizens is €1,485 a year. An EDISU grant through an ISEE parificato can bring it lower. |
 | University of Trento Computer Science | **Keep.** Fees run from €0 to €6,000 depending on your entrance test score, a wider range than the €1,000 to €4,500 your sheet shows. |
-| Sapienza, Pavia AI | **Good cheap options, now in the main table.** Sapienza is only €300 a year for you. None of them is a security degree. |
+| Sapienza, Pavia AI | **Good cheap options, now in the main table.** Sapienza is €700 a year for Russian citizens. None of them is a security degree. |
 | Bozen-Bolzano Computer Science | **Drop.** It is taught in three languages, not only English. |
 | Hanze Applied Computer Science (€9,639), NHL Stenden Computer Science (€10,335) | **Above budget and general.** If you want NHL Stenden, its IT degree with the Cybersecurity specialisation fits you better than its CS degree. |
 | THWS Schweinfurt Applied Mathematics | **Drop.** It's a maths degree, not CS or security. |
 | RWTH, TU Darmstadt, TU Berlin, KIT, Basel | **Out.** They are taught in German, and the German universities also need final results before their deadlines. |
 
-## Money: scholarships for Serbian students
+## Money: grants and fee reductions
 
-- **Italian regional grants** (DSU, called EDISU in Turin): open to non-EU students who submit an "ISEE parificato" based on family income documents from Serbia. They can waive fees and add a living grant and housing *(check amounts)*.
+- **Italian regional grants** (DSU, called EDISU in Turin): open to non-EU students who submit an "ISEE parificato" based on family income documents. They can waive fees and add a living grant and housing *(check amounts)*.
 - **Trento**: free tuition with a test score of 90+, plus a merit scholarship for non-EU students scoring 70+.
 
 ## Key dates
@@ -135,7 +143,7 @@ Your A Level results arrive in mid-August 2027. Here is how each remaining unive
 - Passport
 - IELTS Academic certificate (check it is still under 2 years old on the deadline)
 - AS results statement for 2026 and predicted A Level grades; final certificates once you have them
-- School transcripts, with certified English translations of anything in Serbian
+- School transcripts, with certified English translations of anything in Serbian or Russian
 - CV and motivation letter. Most of these courses ask for one, and for security courses your CTFs, TryHackMe or Hack The Box progress and your own security projects are strong evidence.
 
 **By country**
