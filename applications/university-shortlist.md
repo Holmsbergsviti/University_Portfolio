@@ -28,7 +28,7 @@
 | 3 | **Hard** | **Bocconi University** (Milan), BSc Mathematical and Computing Sciences for AI | Italy | **€17,700.** Only within budget with an ISU Bocconi grant, which is income-based and open to all nationalities. | **Winter round 25 Nov 2026 to 26 Jan 2027** | SAT or Bocconi test (55%) plus IGCSE and AS grades (45%). About 15–22% get in *(check)*. | Maths-heavy, little security |
 | 4 | Possible | **Sapienza University of Rome**, Applied Computer Science and AI (ACSAI) | Italy | **€700** | Pre-selection about 15 May; test by 18 Jun | SAT, TOLC-I or CEnT-S, minimum 36/100. 60 non-EU places. **Predicted-grade policy unclear: send the email.** | CS and AI; Rome has a strong security group |
 | 5 | Possible | **University of Padova**, Information Engineering BSc | Italy | €2,990 | **First call may close 15 Nov 2026** *(check now)*; second window 7 Jan to 7 Mar | CEnT-S 38+, with at least 7 correct in maths. 100 non-EU places. | CS plus networks |
-| 6 | Possible | **Politecnico di Torino**, Computer Engineering (taught in Italian and English; choose the English-taught option when applying) | Italy | **€1,485** for Russian citizens (Annex 2 of the fee rules) | 2027/28 call not out yet; in 2026 non-EU applicants had to finish by 22 May, with Universitaly by 30 Jun | **Changes for 2027/28:** the TIL test is replaced by CISIA tests (TOLC or CEnT), **taken in person only, not from home**. Whether the SAT still counts isn't stated yet. | Has cybersecurity courses and leads into Turin's cybersecurity master's |
+| 6 | Possible | **Politecnico di Torino**, Computer Engineering (can be taken entirely in English) | Italy | **€1,485** for Russian citizens (Annex 2 of the fee rules) | 2026 timeline: registration opened 27 Jan; last test session for non-EU 22 May; SAT scores by 30 Apr; English certificate by 22 May; enrolment by 30 Sep | **85 non-EU places.** 2026 rules: TIL test (60/100 guarantees a place) or SAT with **650+ in each section**. **For 2027/28 the TIL becomes in-person CISIA tests (TOLC or CEnT)**; SAT not yet confirmed. You can reserve a place before getting your diploma (Enrolment Regulations Art. 5). Maths, CS and Economics all count as related A Levels. | Has cybersecurity courses and leads into Turin's cybersecurity master's |
 | 7 | Possible | **Universities of Milan, Pavia and Milano-Bicocca**, Artificial Intelligence BSc | Italy | about €1,500 | 28 Apr to 18 May *(2026 dates)* | SAT 979+. 45 non-EU places. | AI rather than security |
 | 8 | Safe | **Ca' Foscari University of Venice**, Computer Science, Data Science curriculum | Italy | €1,300 | Several rounds; pre-evaluation from Dec 2026 | TOLC-I or CEnT-S before applying. About 30 non-EU places. | CS and data |
 | 9 | Safe | **University of Genoa**, Computer Engineering (Imperia campus) | Italy | Income-based *(check the fee calculator)* | *(check)* | Open access, no cap on places | Genoa has a security lab |
@@ -91,7 +91,7 @@ Your A Level results arrive in mid-August 2027. Here is how each remaining unive
 | Trento | **Yes, conditional.** Ranking is by CEnT-S only. | Grades from your last 2 school years | Diploma "by 31 Jul". **Ask whether a school letter confirming you sat the June exams is enough.** |
 | Sapienza | **Unclear** *(email acsai@di.uniroma1.it)* | SAT and a school average of 75%+ | At enrolment |
 | Padova | **Yes, conditional** | Documents via apply.unipd.it. **The first call may close 15 Nov 2026** *(check now)*. | Completion by 31 Jul; same question as Trento |
-| Politecnico di Torino | **Yes, conditional** | Current school records or a school letter with your expected graduation date | about 30 Sep |
+| Politecnico di Torino | **Yes.** Enrolment Regulations Art. 5 lets non-EU visa applicants reserve a place by paying the first instalment (€161) before getting their diploma | School letter; English certificate by about 22 May | Enrolment and diploma upload by 30 Sep, 2:00 p.m. (2026 rules) |
 | Milan/Pavia AI | **Yes, conditional** | Latest transcript or a school letter, plus SAT 979+ | 30 Sep |
 | Ca' Foscari | **Yes, conditional** | Pre-evaluation online from Dec 2026 | At enrolment, by about 18 Dec |
 | Genoa | **Unclear** *(check)* | – | – |
@@ -198,6 +198,8 @@ Public German universities can't take you for autumn 2027. uni-assist, which che
 - Genoa: https://corsi.unige.it/en/corsi/lingua/en
 - Politecnico di Torino: https://www.polito.it/en/education/bachelor-s-degree-programmes/computer-engineering
 - Politecnico di Torino admission test 2027/28 (CISIA, in person): https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/bachelor-s-degree-programmes/admission-test
+- Politecnico di Torino Engineering call 2026/27: https://www.polito.it/sites/default/files/2025-12/Call%20for%20applications%20for%20admissions%20Engineering%20_%20LP%202026-27.pdf
+- Politecnico di Torino enrolment regulations 2026/27: https://www.polito.it/sites/default/files/2026-04/ENG%20_Enrolment%20regulations%2026_27_new.pdf
 - Politecnico di Torino fee rules (Annex 2): https://www.polito.it/sites/default/files/2025-10/ENG_Regolamento%20contribuz_immatricolati_post%20CDA_from25-26.pdf
 - Sapienza fees: https://www.uniroma1.it/en/content/standard-registration-fee-amounts
 - Sapienza ACSAI: https://i3s.web.uniroma1.it/sites/default/files/allegati/2026-05/bando-acsai.pdf
