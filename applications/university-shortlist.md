@@ -13,7 +13,9 @@
 - **IELTS 8.0 meets every minimum found.** The highest is HTW Berlin at 7.0. Check your certificate will still be under 2 years old on each deadline.
 - **Living costs** matter as much as tuition. The German student visa requires a blocked account of €11,904 a year, which is a fair guide to living costs in Germany. Italian cities outside Milan and Rome are usually cheaper; Dutch cities are more expensive.
 
-## The shortlist (16 options)
+## The shortlist (15 options)
+
+Every course here is taught fully in English.
 
 Countries you have ruled out: Estonia, Czechia, Lithuania and Hungary. Italian dates are 2026 dates, used as a guide for 2027; they change little from year to year.
 
@@ -24,17 +26,16 @@ Countries you have ruled out: Estonia, Czechia, Lithuania and Hungary. Italian d
 | 3 | Reach | **University of Trento**, Computer Science BSc (English) | Italy | **€0 to €6,000**, depending on your test score (free at 90+) | Apply by about 23 Mar; test by 31 Mar | CEnT-S test only. Very competitive: the 2026 non-EU cutoff was 90.5/100, with 224 applicants for 25 places. | General CS. A strong test score makes it free. |
 | 4 | Match | **Sapienza University of Rome**, Applied Computer Science and AI BSc (English) | Italy | **€300** flat (the rate for Serbia) | Pre-selection 15 May; test by 18 Jun; Universitaly 30 Jun | SAT, English TOLC-I or CEnT-S; minimum 36/100. 60 non-EU places. | General CS leaning to AI; Rome has a strong security research group |
 | 5 | Match | **University of Padova**, Information Engineering BSc (English) | Italy | €2,990 | **7 Jan to 7 Mar 2027** *(2026 dates)* | CEnT-S, score of 38+ including 7+ correct in maths. 100 non-EU places. | CS plus networks |
-| 6 | Match | **Politecnico di Torino**, Computer Engineering BSc (Italian and English *(check which courses are in English)*) | Italy | €1,325 to €2,601 (the Serbia range); ask for a reduction by about 10 Dec | TIL test sessions Feb to 22 May; Universitaly 30 Jun | TIL-I test or SAT | Engineering-heavy, with cybersecurity courses, and leads into Torino's cybersecurity master's |
+| 6 | Match | **Politecnico di Torino**, Computer Engineering BSc (runs in Italian and in English; choose the English version *(check when applying)*) | Italy | €1,325 to €2,601 (the Serbia range); ask for a reduction by about 10 Dec | TIL test sessions Feb to 22 May; Universitaly 30 Jun | TIL-I test or SAT | Engineering-heavy, with cybersecurity courses, and leads into Torino's cybersecurity master's |
 | 7 | Match | **University of Milan, Pavia and Milano-Bicocca** (joint), Artificial Intelligence BSc (English) | Italy | about €1,520 if enrolled through Pavia; ISEE-based reductions possible *(check)* | Application 28 Apr to 18 May 2027 *(2026 dates)* | SAT 979+ out of 1600. 45 non-EU places. | AI rather than security |
 | 8 | Match | **HTW Berlin** (university of applied sciences), Cyber Security and Business BSc | Germany | **Free** (semester fee €375) | **1 May to 30 Jun 2027**, via uni-assist | Places ranked by grades; IELTS 7.0 | IT forensics and incident response, network security and cryptography are core modules |
-| 9 | Match | **Howest University of Applied Sciences** (Bruges), Bachelor in Cyber Security | Belgium | €7,157 *(check)* | *(check on howest.be; Belgian deadlines for non-EU are usually spring)* | No prior IT knowledge required | Most on-target course on the list: pentesting of systems, web apps and networks, forensic analysis, malware reverse engineering |
-| 10 | Match | **Free University of Bozen-Bolzano**, Computer Science BSc | Italy | about €1,600 | Rounds roughly Mar to Apr and May to Jul 2027 | Ranking plus an online language test; trilingual university *(check how much is in English)* | General CS |
-| 11 | Safe | **Ca' Foscari University of Venice**, Computer Science BSc, Data Science curriculum (English) | Italy | €1,300 | Several rounds through the year *(check)* | TOLC-I or CEnT-S taken before applying. About 30 non-EU places. | General CS and data |
-| 12 | Safe | **University of Genoa**, Computer Engineering BSc (English, Imperia campus) | Italy | Income-based *(check the fee calculator)* | *(check)* | Open access, no cap on places | Computer engineering; Genoa has a security lab |
-| 13 | Safe | **THI Ingolstadt**, Computer Science and Artificial Intelligence BSc (English) | Germany | €1,600 (€800 per semester) | 15 Apr to 15 Jul 2027, via PRIMUSS and uni-assist | Ranked by grades, weighted towards maths and programming | General CS and AI. THI may also have an English Cybersecurity BSc *(check)*. |
-| 14 | Safe | **Johannes Kepler University Linz**, Artificial Intelligence BSc (English) | Austria | about €1,450 (€727 per semester) *(check)* | Enrol before the winter term *(check dates)* | No admission test; B2 English | AI rather than security |
-| 15 | Safe | **The Hague University of Applied Sciences** (Delft campus), Applied Computer Science, Information and Cyber Security specialisation | Netherlands | **€10,528, above budget** | about 1 May 2027 for non-EU *(check)* | Diploma check only | Practical, close to The Hague's security sector |
-| 16 | Safe | **Fontys University of Applied Sciences** (Eindhoven), ICT, Cyber Security specialisation | Netherlands | **about €10,000, above budget** *(check)* | **1 May 2027**; also a February intake (deadline 15 Nov) | Diploma check only | Hands-on: vulnerability testing and incident analysis; graduates go into ethical hacking roles |
+| 9 | Match | **Howest University of Applied Sciences** (Bruges), Bachelor in Cyber Security (English version *(confirm on howest.be; a Dutch version also runs)*) | Belgium | €7,157 *(check)* | *(check on howest.be; Belgian deadlines for non-EU are usually spring)* | No prior IT knowledge required | Most on-target course on the list: pentesting of systems, web apps and networks, forensic analysis, malware reverse engineering |
+| 10 | Safe | **Ca' Foscari University of Venice**, Computer Science BSc, Data Science curriculum (English) | Italy | €1,300 | Several rounds through the year *(check)* | TOLC-I or CEnT-S taken before applying. About 30 non-EU places. | General CS and data |
+| 11 | Safe | **University of Genoa**, Computer Engineering BSc (English, Imperia campus) | Italy | Income-based *(check the fee calculator)* | *(check)* | Open access, no cap on places | Computer engineering; Genoa has a security lab |
+| 12 | Safe | **THI Ingolstadt**, Computer Science and Artificial Intelligence BSc (English) | Germany | €1,600 (€800 per semester) | 15 Apr to 15 Jul 2027, via PRIMUSS and uni-assist | Ranked by grades, weighted towards maths and programming | General CS and AI. THI may also have an English Cybersecurity BSc *(check)*. |
+| 13 | Safe | **Johannes Kepler University Linz**, Artificial Intelligence BSc (English) | Austria | about €1,450 (€727 per semester) *(check)* | Enrol before the winter term *(check dates)* | No admission test; B2 English | AI rather than security |
+| 14 | Safe | **The Hague University of Applied Sciences** (Delft campus), Applied Computer Science, Information and Cyber Security specialisation | Netherlands | **€10,528, above budget** | about 1 May 2027 for non-EU *(check)* | Diploma check only | Practical, close to The Hague's security sector |
+| 15 | Safe | **Fontys University of Applied Sciences** (Eindhoven), ICT, Cyber Security specialisation | Netherlands | **about €10,000, above budget** *(check)* | **1 May 2027**; also a February intake (deadline 15 Nov) | Diploma check only | Hands-on: vulnerability testing and incident analysis; graduates go into ethical hacking roles |
 
 ### Tests to book
 
@@ -72,6 +73,7 @@ Countries you have ruled out: Estonia, Czechia, Lithuania and Hungary. Italian d
 - Ireland: €18,000 to €25,000 a year.
 - Spain and Portugal: no cheap English-taught cyber degree found.
 - Estonia, Czechia, Lithuania and Hungary: you have ruled these out.
+- Free University of Bozen-Bolzano Computer Science: taught in Italian, German and English, and you must reach C1 in two of them to graduate.
 
 ## Your own list, checked (16 October 2026)
 
@@ -82,7 +84,8 @@ Countries you have ruled out: Estonia, Czechia, Lithuania and Hungary. Italian d
 | Howest Cyber Security (Bruges) | **Added to the shortlist.** At €7,157 it's within budget, and its course content is the closest match to pentesting and forensics. |
 | Politecnico di Torino Computer Engineering | **Keep.** The fee for Serbian citizens is €1,325 to €2,601 a year. An EDISU grant through an ISEE parificato can bring it lower. |
 | University of Trento Computer Science | **Keep.** Fees run from €0 to €6,000 depending on your entrance test score, a wider range than the €1,000 to €4,500 your sheet shows. |
-| Sapienza, JKU Linz, Bozen-Bolzano, Pavia AI | **Good cheap options, now all in the main table.** Sapienza is only €300 a year for you. None of them is a security degree. |
+| Sapienza, JKU Linz, Pavia AI | **Good cheap options, now in the main table.** Sapienza is only €300 a year for you. None of them is a security degree. |
+| Bozen-Bolzano Computer Science | **Drop.** It is taught in three languages, not only English. |
 | Hanze Applied Computer Science (€9,639), NHL Stenden Computer Science (€10,335) | **Above budget and general.** If you want NHL Stenden, its IT degree with the Cybersecurity specialisation fits you better than its CS degree. |
 | University of Bayreuth Data, Science and AI | Fine as a fallback, but it isn't a security degree. |
 | THWS Schweinfurt Applied Mathematics | **Drop.** It's a maths degree, not CS or security. |
