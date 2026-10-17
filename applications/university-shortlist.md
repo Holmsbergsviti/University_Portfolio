@@ -28,7 +28,7 @@
 | 3 | **Hard** | **Bocconi University** (Milan), BSc Mathematical and Computing Sciences for AI | Italy | **€17,700.** Only within budget with an ISU Bocconi grant, which is income-based and open to all nationalities. | **Winter round 25 Nov 2026 to 26 Jan 2027** | SAT or Bocconi test (55%) plus IGCSE and AS grades (45%). About 15–22% get in *(check)*. | Maths-heavy, little security |
 | 4 | Possible | **Sapienza University of Rome**, Applied Computer Science and AI (ACSAI) | Italy | **€700** | Pre-selection about 15 May; test by 18 Jun | SAT, TOLC-I or CEnT-S, minimum 36/100. 60 non-EU places. **Predicted-grade policy unclear: send the email.** | CS and AI; Rome has a strong security group |
 | 5 | Possible | **University of Padova**, Information Engineering BSc | Italy | €2,990 | **First call may close 15 Nov 2026** *(check now)*; second window 7 Jan to 7 Mar | CEnT-S 38+, with at least 7 correct in maths. 100 non-EU places. | CS plus networks |
-| 6 | Possible | **Politecnico di Torino**, Computer Engineering (choose the English version) | Italy | **€1,485** | TIL test sessions until about 22 May; Universitaly by 30 Jun | TIL-I test or SAT | Has cybersecurity courses and leads into Turin's cybersecurity master's |
+| 6 | Possible | **Politecnico di Torino**, Computer Engineering (taught in Italian and English; choose the English-taught option when applying) | Italy | **€1,485** for Russian citizens (Annex 2 of the fee rules) | 2027/28 call not out yet; in 2026 non-EU applicants had to finish by 22 May, with Universitaly by 30 Jun | **Changes for 2027/28:** the TIL test is replaced by CISIA tests (TOLC or CEnT), **taken in person only, not from home**. Whether the SAT still counts isn't stated yet. | Has cybersecurity courses and leads into Turin's cybersecurity master's |
 | 7 | Possible | **Universities of Milan, Pavia and Milano-Bicocca**, Artificial Intelligence BSc | Italy | about €1,500 | 28 Apr to 18 May *(2026 dates)* | SAT 979+. 45 non-EU places. | AI rather than security |
 | 8 | Safe | **Ca' Foscari University of Venice**, Computer Science, Data Science curriculum | Italy | €1,300 | Several rounds; pre-evaluation from Dec 2026 | TOLC-I or CEnT-S before applying. About 30 non-EU places. | CS and data |
 | 9 | Safe | **University of Genoa**, Computer Engineering (Imperia campus) | Italy | Income-based *(check the fee calculator)* | *(check)* | Open access, no cap on places | Genoa has a security lab |
@@ -197,6 +197,8 @@ Public German universities can't take you for autumn 2027. uni-assist, which che
 - Ca' Foscari: https://apply.unive.it/courses/course/652-bsc-computer-science--data-science-curriculum
 - Genoa: https://corsi.unige.it/en/corsi/lingua/en
 - Politecnico di Torino: https://www.polito.it/en/education/bachelor-s-degree-programmes/computer-engineering
+- Politecnico di Torino admission test 2027/28 (CISIA, in person): https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/bachelor-s-degree-programmes/admission-test
+- Politecnico di Torino fee rules (Annex 2): https://www.polito.it/sites/default/files/2025-10/ENG_Regolamento%20contribuz_immatricolati_post%20CDA_from25-26.pdf
 - Sapienza fees: https://www.uniroma1.it/en/content/standard-registration-fee-amounts
 - Sapienza ACSAI: https://i3s.web.uniroma1.it/sites/default/files/allegati/2026-05/bando-acsai.pdf
 - The Hague University: https://www.thuas.com/programmes/bachelors/applied-computer-science
