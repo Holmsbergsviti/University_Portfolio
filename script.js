@@ -31,8 +31,19 @@
   function closeLb(){ lb.classList.remove('open'); document.body.style.overflow=''; }
   Array.prototype.forEach.call(document.querySelectorAll('[data-zoom]'), function(fig){
     var img=fig.querySelector('img');
-    fig.addEventListener('click', function(){ openLb(img.src); });
+    fig.addEventListener('click', function(){ lbImg.alt=img.alt; openLb(img.src); });
     fig.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); openLb(img.src); } });
+  });
+  // "View certificate" buttons: each stays hidden until its image actually exists
+  Array.prototype.forEach.call(document.querySelectorAll('[data-proof]'), function(btn){
+    var src=btn.getAttribute('data-proof');
+    var probe=new Image();
+    probe.onload=function(){ btn.hidden=false; };
+    probe.src=src;
+    btn.addEventListener('click', function(){
+      lbImg.alt=btn.getAttribute('data-proof-alt')||'Certificate, enlarged';
+      openLb(src);
+    });
   });
   if(lb){ lb.addEventListener('click', closeLb);
     document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeLb(); });

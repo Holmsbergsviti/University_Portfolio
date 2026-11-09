@@ -340,3 +340,10 @@
     .btn:hover,.card:hover,.skill-card:hover,.early-item:hover{transform:none;}
   }
   :focus-visible{outline:2px solid var(--amber); outline-offset:3px; border-radius:4px;}
+
+  /* "View certificate" proof buttons in the results section */
+  .proof-btn{display:inline-flex; align-items:center; gap:6px; margin-top:10px; font-family:var(--f-mono); font-size:11.5px; color:var(--text-2); background:transparent; border:1px solid var(--line-2); border-radius:7px; padding:5px 10px; white-space:nowrap; cursor:zoom-in; transition:color .15s, border-color .15s;}
+  .proof-btn:hover,.proof-btn:focus-visible{color:var(--text); border-color:var(--muted);}
+  .proof-btn[hidden]{display:none;}
+  .res-band .proof-btn{margin-top:0; margin-left:12px;}
+  @media (max-width:520px){ .res-band{flex-wrap:wrap;} .res-band .proof-btn{margin-left:0; flex-basis:100%; justify-content:center;} }
