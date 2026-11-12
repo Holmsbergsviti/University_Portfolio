@@ -24,16 +24,63 @@
     items.forEach(function(el){ io.observe(el); });
   }
 
-  // lightbox for commendation
+  // lightbox: one image (commendation) or a set of pages (certificates, reports)
   var lb=document.getElementById('lightbox');
   var lbImg=document.getElementById('lb-img');
-  function openLb(src){ lbImg.src=src; lb.classList.add('open'); document.body.style.overflow='hidden'; }
+  var lbPrev=lb.querySelector('.lb-prev'), lbNext=lb.querySelector('.lb-next'), lbCount=lb.querySelector('.lb-count');
+  var pages=[], page=0;
+  function show(){
+    lbImg.src=pages[page];
+    var multi=pages.length>1;
+    lbPrev.hidden=lbNext.hidden=lbCount.hidden=!multi;
+    if(multi) lbCount.textContent=(page+1)+' / '+pages.length;
+  }
+  function openLb(list, alt){
+    pages=[].concat(list); page=0; lbImg.alt=alt||'Document, enlarged';
+    show(); lb.classList.add('open'); document.body.style.overflow='hidden';
+  }
   function closeLb(){ lb.classList.remove('open'); document.body.style.overflow=''; }
+  function step(d){ if(pages.length>1){ page=(page+d+pages.length)%pages.length; show(); } }
+  lbPrev.addEventListener('click', function(e){ e.stopPropagation(); step(-1); });
+  lbNext.addEventListener('click', function(e){ e.stopPropagation(); step(1); });
+  lbImg.addEventListener('click', function(e){ if(pages.length>1){ e.stopPropagation(); step(1); } });
+  lb.addEventListener('click', closeLb);
+  document.addEventListener('keydown', function(e){
+    if(!lb.classList.contains('open')) return;
+    if(e.key==='Escape') closeLb();
+    else if(e.key==='ArrowRight') step(1);
+    else if(e.key==='ArrowLeft') step(-1);
+  });
+
   Array.prototype.forEach.call(document.querySelectorAll('[data-zoom]'), function(fig){
     var img=fig.querySelector('img');
-    fig.addEventListener('click', function(){ openLb(img.src); });
-    fig.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); openLb(img.src); } });
+    fig.addEventListener('click', function(){ openLb(img.src, img.alt); });
+    fig.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); openLb(img.src, img.alt); } });
   });
-  if(lb){ lb.addEventListener('click', closeLb);
-    document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeLb(); });
-  }
+
+  // "View" buttons list one or more files separated by "|". A button stays hidden until at
+  // least one of its files exists, and only the files that exist are shown, in the listed order.
+  Array.prototype.forEach.call(document.querySelectorAll('[data-proof]'), function(btn){
+    var files=btn.getAttribute('data-proof').split('|');
+    var found=new Array(files.length);
+    files.forEach(function(src, i){
+      var probe=new Image();
+      probe.onload=function(){ found[i]=src; btn.hidden=false; };
+      probe.src=src;
+    });
+    btn.addEventListener('click', function(){
+      var list=found.filter(Boolean);
+      if(list.length) openLb(list, btn.getAttribute('data-proof-alt'));
+    });
+  });
+
+  // Photos that only appear once their file exists (profile photo, gallery)
+  Array.prototype.forEach.call(document.querySelectorAll('.opt-media'), function(fig){
+    var img=fig.querySelector('img');
+    function reveal(){ fig.hidden=false; }
+    if(img.complete && img.naturalWidth) reveal(); else img.addEventListener('load', reveal);
+    if(fig.classList.contains('g-item')){
+      fig.addEventListener('click', function(){ openLb(img.src, img.alt); });
+    }
+  });
+
