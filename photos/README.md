@@ -11,5 +11,7 @@ Each photo only appears on the site once its file is here.
 | `life-4.jpg` | Gallery: Ironman Belgrade |
 | `life-5.jpg` | Gallery: charity bazaar |
 | `life-6.jpg` | Gallery: spare slot (set its caption in index.html) |
+| `travel-1.jpg`, `travel-2.jpg` | Gallery: travelling |
+| `travel-3.jpg` | Gallery: Australia |
 
 Captions are the `<figcaption>` text next to each image in the "Beyond the code" section of index.html. Keep each photo under about 500 KB (around 1600 px on the long side).
