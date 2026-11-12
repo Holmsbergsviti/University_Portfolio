@@ -8,7 +8,7 @@ Each photo only appears on the site once its file is here.
 | `life-1.jpg` | Gallery: playing football |
 | `life-2.jpg` | Gallery: rollerblading |
 | `life-3.jpg` | Gallery: dance |
-| `life-4.jpg` | Gallery: Ironman Belgrade |
+| `life-4.jpg` | Gallery: volunteering at Ironman Belgrade |
 | `life-5.jpg` | Gallery: charity bazaar |
 | `life-6.jpg` | Gallery: spare slot (set its caption in index.html) |
 | `travel-1.jpg`, `travel-2.jpg` | Gallery: travelling |
