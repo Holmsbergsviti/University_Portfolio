@@ -10,8 +10,9 @@ Scans or photos of certificates and reports. A "View" button on the site only ap
 | `as-level.jpg` | Cambridge AS Level results |
 | `ielts.jpg` | IELTS Academic |
 | `predicted.jpg` | A Level predicted grades letter |
-| `olympiad.jpg` | International STEM Olympiad |
-| `dance-1.jpg` … `dance-8.jpg` | Dance certificates |
+| `olympiad.jpg` | International STEM Olympiad, 2026 silver (Achievements card and last page in My journey) |
+| `olympiad-2023.jpg`, `olympiad-2024.jpg`, `olympiad-2025.jpg` | International STEM Olympiad bronze years, shown before `olympiad.jpg` in My journey |
+| `dance-1.jpg` … `dance-6.jpg` | Dance certificates, oldest first (2022 to 2024) |
 | `bazaar-1.jpg` … `bazaar-3.jpg` | Charity bazaar volunteering |
 | `ironman-1.jpg` … `ironman-3.jpg` | Volunteering at Ironman Belgrade |
 
