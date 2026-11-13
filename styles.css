@@ -404,3 +404,48 @@
     .j-year{flex:0 0 100%; padding-top:0;}
     .j-body{flex:1 1 0;}
   }
+
+  /* ============ COMPACT PASS (shorter page, same content) ============ */
+  section{padding:64px 0;}
+  .sec-head{margin-bottom:26px;}
+  .hero{padding-top:56px;}
+  #hero{padding-bottom:48px !important;}
+  .readout{margin-top:38px;}
+  .about-grid p{margin-bottom:14px;}
+  .why{margin-top:28px;}
+  .flagship{padding:28px; margin-bottom:16px;}
+  .flagship p{margin-bottom:18px;}
+  .flag-feats{padding:16px 0; margin-bottom:18px;}
+  .card{padding:22px; gap:10px;}
+  .proj-grid,.dance-proj-grid,.cred-grid{gap:14px;}
+  .early,.commend{margin-top:16px;}
+  .commend{padding:28px;}
+  .cred{padding:20px 22px;}
+  .cred .c-k{margin-top:12px;}
+  .life-grid{gap:14px;}
+  .gallery{grid-template-columns:repeat(auto-fill,minmax(170px,1fr)); gap:12px; margin-top:16px;}
+  .g-item{aspect-ratio:4/3;}
+  .tbl td{padding:9px 22px;}
+  .res-band{padding:12px 22px;}
+  .contact-box{padding:34px;}
+  #contact{padding-bottom:56px;}
+  @media (min-width:980px){
+    .journey{display:block; columns:2; column-gap:18px;}
+    .j-group{break-inside:avoid; margin-bottom:18px; padding:20px 24px;}
+    .j-row{padding:11px 0;}
+  }
+  @media (max-width:640px){
+    section{padding:44px 0;}
+    .sec-head{margin-bottom:20px;}
+    .flagship{padding:20px;}
+    .card,.cred{padding:18px;}
+    .why{padding:18px;}
+    .contact-box{padding:24px;}
+    .gallery{grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px;}
+    .g-item figcaption{font-size:12px; padding:18px 10px 8px;}
+    .j-group{padding:16px 18px;}
+    .j-row{padding:10px 0;}
+    .life-grid .cred .medal{font-size:22px; float:left; margin:0 10px 0 0;}
+    .life-grid .cred .c-k{margin-top:4px; line-height:22px;}
+    .life-grid .cred h3{clear:left; margin-top:8px;}
+  }
