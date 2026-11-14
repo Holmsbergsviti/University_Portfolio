@@ -527,3 +527,4 @@
   .dance-row .cred .link-btn{margin-top:auto; cursor:pointer;} .dance-row .cred .c-desc{margin-bottom:12px;}
   .life-photos .card-photo{aspect-ratio:1/1;}
 
+  @media (min-width:981px){ .life-photos{grid-template-columns:repeat(4,minmax(0,1fr));} .life-text{grid-template-columns:repeat(3,minmax(0,1fr));} }
