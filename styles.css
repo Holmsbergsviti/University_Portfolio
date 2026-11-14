@@ -554,3 +554,8 @@
   .why2-list .n{padding-top:0; font-size:11.5px; letter-spacing:.08em;}
   .why2-list b{white-space:nowrap;}
   @media (max-width:1000px){ .why2-list b{white-space:normal;} }
+  @media (min-width:861px){
+    .about-side .fact-card{justify-content:flex-start;}
+    .about-side .fact-card .fact-row{flex:1; align-items:center; padding:8px 0;}
+    .about-side .fact-card h3{margin-bottom:6px;}
+  }
