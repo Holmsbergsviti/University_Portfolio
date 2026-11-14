@@ -79,7 +79,7 @@
     var img=fig.querySelector('img');
     function reveal(){ fig.hidden=false; }
     if(img.complete && img.naturalWidth) reveal(); else img.addEventListener('load', reveal);
-    if(fig.classList.contains('g-item')){
+    if(fig.classList.contains('g-item')||fig.classList.contains('zoom')){
       fig.addEventListener('click', function(){ openLb(img.src, img.alt); });
     }
   });
