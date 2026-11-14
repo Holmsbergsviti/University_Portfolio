@@ -451,3 +451,7 @@
   }
   .sec-lede:has(+ .sec-lede){margin-bottom:14px;}
   .about-grid p{font-size:16.5px;}
+  .grade-grid{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px;}
+  @media (max-width:860px){ .grade-grid{grid-template-columns:1fr;} }
+  .grade-grid .cred .c-k{margin-top:0;}
+  .grade-grid .cred h3{font-size:1.3rem;}
