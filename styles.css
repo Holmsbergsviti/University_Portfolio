@@ -514,3 +514,14 @@
   .life-grid .cred .proof-btn{margin-top:auto; padding-top:5px;}
   .life-grid .cred .c-desc{margin-bottom:12px;}
   @media (min-width:641px){ #life .gallery{grid-template-columns:repeat(4,minmax(0,1fr));} }
+  .dance-row{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; margin-top:20px;}
+  .dance-row .g-item{aspect-ratio:auto; min-height:260px; height:100%;}
+  .dance-row .cred{display:flex; flex-direction:column; align-items:flex-start;}
+  .dance-row .cred > .card-photo{align-self:stretch;}
+  @media (max-width:860px){ .dance-row{grid-template-columns:1fr 1fr;} .dance-row .dance-photo{grid-column:1 / -1; aspect-ratio:4/3; height:auto;} }
+  @media (max-width:560px){ .dance-row{grid-template-columns:1fr;} }
+  @media (min-width:861px){
+    .dance-row .dance-photo{min-height:300px;}
+    .dance-row .dance-photo img{position:absolute; inset:0; object-position:50% 25%;}
+  }
+  .dance-row .cred .link-btn{margin-top:auto; cursor:pointer;} .dance-row .cred .c-desc{margin-bottom:12px;}
