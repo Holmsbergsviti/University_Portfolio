@@ -542,3 +542,15 @@
   .why2-list b{display:block; font-family:var(--f-display); font-size:14.5px; font-weight:600; color:var(--text);}
   .why2-list div span{display:block; font-size:13px; color:var(--muted); line-height:1.45; margin-top:3px;}
   @media (max-width:700px){ .why2-list{grid-template-columns:1fr;} .why2{padding:18px;} }
+  @media (min-width:861px){
+    .about-grid{align-items:stretch;}
+    .about-grid > .reveal:first-child{display:flex; flex-direction:column;}
+    .about-grid .why2{margin-top:auto;}
+    .about-grid > .reveal:first-child > p:last-of-type{margin-bottom:26px;}
+    .about-side{height:100%;}
+    .about-side .fact-card{flex:1; display:flex; flex-direction:column; justify-content:space-between;}
+  }
+  .why2-list li{flex-direction:column; gap:6px;}
+  .why2-list .n{padding-top:0; font-size:11.5px; letter-spacing:.08em;}
+  .why2-list b{white-space:nowrap;}
+  @media (max-width:1000px){ .why2-list b{white-space:normal;} }
