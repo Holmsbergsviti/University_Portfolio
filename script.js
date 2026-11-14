@@ -84,3 +84,16 @@
     }
   });
 
+
+  // Email links: mailto does nothing when no mail app is set up, so also copy the address and say so.
+  Array.prototype.forEach.call(document.querySelectorAll('a[href^="mailto:"]'), function(a){
+    a.addEventListener('click', function(){
+      var addr=a.getAttribute('href').replace('mailto:','');
+      var t=document.getElementById('toast');
+      if(!t){ t=document.createElement('div'); t.id='toast'; t.className='toast'; t.setAttribute('role','status'); document.body.appendChild(t); }
+      function show(msg){ t.textContent=msg; t.classList.add('show'); clearTimeout(t._h); t._h=setTimeout(function(){ t.classList.remove('show'); },3500); }
+      try{
+        navigator.clipboard.writeText(addr).then(function(){ show('Email copied: '+addr); }, function(){ show(addr); });
+      }catch(e){ show(addr); }
+    });
+  });

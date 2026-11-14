@@ -528,3 +528,5 @@
   .life-photos .card-photo{aspect-ratio:1/1;}
 
   @media (min-width:981px){ .life-photos{grid-template-columns:repeat(4,minmax(0,1fr));} .life-text{grid-template-columns:repeat(3,minmax(0,1fr));} }
+  .toast{position:fixed; left:50%; bottom:24px; transform:translate(-50%,20px); opacity:0; pointer-events:none; z-index:120; font-family:var(--f-mono); font-size:13px; color:var(--text); background:var(--surface-3); border:1px solid var(--amber-line); border-radius:10px; padding:10px 16px; box-shadow:0 14px 34px -14px rgba(0,0,0,.8); transition:opacity .25s, transform .25s var(--ease); max-width:calc(100vw - 32px);}
+  .toast.show{opacity:1; transform:translate(-50%,0);}
