@@ -496,3 +496,9 @@
     .life-grid > .cred{break-inside:avoid; margin-bottom:14px;}
   }
   @media (min-width:981px){ .life-grid{columns:3;} }
+  .letter-thumb{float:right; width:190px; margin:0 0 14px 28px; cursor:zoom-in;}
+  .letter-thumb img{width:100%; display:block; border:1px solid var(--line-2); border-radius:8px; box-shadow:0 14px 34px -18px rgba(0,0,0,.8); transition:transform .25s var(--ease), border-color .25s;}
+  .letter-thumb:hover img{transform:translateY(-3px); border-color:var(--amber-line);}
+  .letter-thumb figcaption{font-family:var(--f-mono); font-size:10.5px; color:var(--faint); text-align:center; margin-top:8px; letter-spacing:.06em; text-transform:uppercase;}
+  .flagship .proj-foot{clear:both;}
+  @media (max-width:640px){ .letter-thumb{width:110px; margin:0 0 10px 14px;} }
