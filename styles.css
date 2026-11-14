@@ -449,3 +449,5 @@
     .life-grid .cred .c-k{margin-top:4px; line-height:22px;}
     .life-grid .cred h3{clear:left; margin-top:8px;}
   }
+  .sec-lede:has(+ .sec-lede){margin-bottom:14px;}
+  .about-grid p{font-size:16.5px;}
