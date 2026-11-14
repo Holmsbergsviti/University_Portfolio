@@ -530,3 +530,15 @@
   @media (min-width:981px){ .life-photos{grid-template-columns:repeat(4,minmax(0,1fr));} .life-text{grid-template-columns:repeat(3,minmax(0,1fr));} }
   .toast{position:fixed; left:50%; bottom:24px; transform:translate(-50%,20px); opacity:0; pointer-events:none; z-index:120; font-family:var(--f-mono); font-size:13px; color:var(--text); background:var(--surface-3); border:1px solid var(--amber-line); border-radius:10px; padding:10px 16px; box-shadow:0 14px 34px -14px rgba(0,0,0,.8); transition:opacity .25s, transform .25s var(--ease); max-width:calc(100vw - 32px);}
   .toast.show{opacity:1; transform:translate(-50%,0);}
+
+  /* why security, inside About */
+  .why2{margin-top:26px; padding:22px 24px; border:1px solid var(--line); border-left:2px solid var(--amber); border-radius:var(--radius); background:linear-gradient(135deg, rgba(246,178,60,.07), transparent 55%), var(--surface-2);}
+  .why2-k{font-family:var(--f-mono); font-size:11.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--amber);}
+  .about-grid .why2-lead{font-family:var(--f-display); font-weight:600; font-size:1.25rem; line-height:1.3; color:var(--text); margin:8px 0 16px; letter-spacing:-.01em;}
+  .why2-lead em{font-style:normal; color:var(--amber);}
+  .why2-list{list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px;}
+  .why2-list li{display:flex; gap:10px; align-items:flex-start; padding:12px 14px; border:1px solid var(--line); border-radius:var(--radius-sm); background:var(--ink-2);}
+  .why2-list .n{font-family:var(--f-mono); font-size:12px; color:var(--amber); padding-top:2px;}
+  .why2-list b{display:block; font-family:var(--f-display); font-size:14.5px; font-weight:600; color:var(--text);}
+  .why2-list div span{display:block; font-size:13px; color:var(--muted); line-height:1.45; margin-top:3px;}
+  @media (max-width:700px){ .why2-list{grid-template-columns:1fr;} .why2{padding:18px;} }
